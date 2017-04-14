@@ -7,100 +7,6 @@
 
 #### Contents
 
-- [UI Components](#ui-components)
-  - [Table / Data Grid](#table--data-grid)
-  - [Infinite Scroll](#infinite-scroll)
-  - [Overlay](#overlay)
-  - [Notification](#notification)
-  - [Tooltip](#tooltip)
-  - [Menu](#menu)
-  - [Sticky](#sticky)
-  - [Tabs](#tabs)
-  - [Loader](#loader)
-  - [Carousel](#carousel)
-  - [Collapse](#collapse)
-  - [Chart](#chart)
-  - [Tree](#tree)
-  - [UI Navigation](#ui-navigation)
-  - [Custom Scrollbar](#custom-scrollbar)
-  - [Audio / Video](#audio--video)
-  - [Map](#map)
-  - [Time / Date / Age](#time--date--age)
-  - [Photo / Image](#photo--image)
-  - [Icons](#icons)
-  - [Paginator](#paginator)
-  - [Markdown Viewer](#markdown-viewer)
-  - [Miscellaneous](#miscellaneous)
-  - [Form Components](#form-components)
-    - [Date / Time picker](#date--time-picker)
-    - [Input Types](#input-types)
-    - [Autocomplete](#autocomplete)
-    - [Select](#select)
-    - [Color Picker](#color-picker)
-    - [Toggle](#toggle)
-    - [Slider](#slider)
-    - [Radio Button](#radio-button)
-    - [Type Select](#type-select)
-    - [Autosize Input / Textarea](#autosize-input--textarea)
-    - [Star Rating](#star-rating)
-    - [Drag and Drop](#drag-and-drop)
-    - [Sortable List](#sortable-list)
-    - [Rich Text Editor](#rich-text-editor)
-    - [Markdown Editor](#markdown-editor)
-    - [Image Editing](#image-editing)
-    - [Form Component Collections](#form-component-collections)
-    - [Miscellaneous](#miscellaneous-1)
-- [UI Layout](#ui-layout)
-- [UI Animation](#ui-animation)
-  - [Parallax](#parallax)
-- [UI Frameworks](#ui-frameworks)
-  - [Responsive](#responsive)
-    - [Bootstrap](#bootstrap)
-    - [Material Design](#material-design)
-  - [Mobile](#mobile)
-  - [Component Collections](#component-collections)
-  - [Other](#other)
-- [UI Utilites](#ui-utilites)
-  - [Reporter](#reporter)
-    - [Visibility Reporter](#visibility-reporter)
-    - [Measurement Reporter](#measurement-reporter)
-  - [Device Input](#device-input)
-    - [Keyboard Events](#keyboard-events)
-    - [Scroll Events](#scroll-events)
-    - [Touch Events](#touch-events)
-    - [Touch Swipe](#touch-swipe)
-    - [Mouse Events](#mouse-events)
-  - [Meta Tags](#meta-tags)
-  - [Portal](#portal)
-  - [Test User Behavior](#test-user-behavior)
-- [Code Design](#code-design)
-  - [Data Store](#data-store)
-  - [Form Logic](#form-logic)
-  - [Router](#router)
-  - [Props from server](#props-from-server)
-  - [Communication with server](#communication-with-server)
-  - [CSS / Style](#css--style)
-  - [HTML Template](#html-template)
-  - [Isomorphic Apps](#isomorphic-apps)
-  - [Boilerplate](#boilerplate)
-  - [Miscellaneous](#miscellaneous-2)
-- [Utilities](#utilities)
-  - [i18n](#i18n)
-  - [Framework bindings / integrations](#framework-bindings--integrations)
-  - [Integrations with Third Party Services](#integrations-with-third-party-services)
-- [Performance](#performance)
-  - [UI](#ui)
-    - [Inspect](#inspect)
-    - [Lazy Load](#lazy-load)
-  - [App Size](#app-size)
-- [Dev Tools](#dev-tools)
-  - [Test](#test)
-  - [Redux](#redux)
-  - [Inspect](#inspect-1)
-  - [Miscellaneous](#miscellaneous-3)
-- [Miscellaneous](#miscellaneous-4)
-  - [Static Website Generator](#static-website-generator)
-
 <br/>
 <br/>
 <br/>
@@ -108,9 +14,69 @@
 <br/>
 <br/>
 
-## UI Components
 
-### Table / Data Grid
+
+
+
+
+
+
+
+# Creative Stuff
+
+*Libraries with a "oh wow that's a neat idea" effect.
+
+I'm curious about new types of libraries. Especially because React allows a whole new range of libraries that previously were very difficult to implement.
+
+If there are several libraries implementing the same creative idea, then please add the oldest one.*
+
+ - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
+ - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
+ - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
+ - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Crazy Stuff
+
+*Libraies with a "oh wow that's courageous" or "oh wow that's audacious.
+
+I'm curious about libraries what aim a (little) revolution."*
+
+ - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
+
+
+
+
+
+
+
+
+
+
+
+
+# Table
+
+*Display data in tabular format.
+
+I want to display entries that all have the same properties but potentially different values for each property.
+
+Properties should be shown as columns of rows where one row then represents one entry.
+
+
+What table / data grid libraries are there for React? (I believe data grid to be a synonym of table in that context.)*
 
  - [reactable](https://github.com/glittershark/reactable) - Fast, flexible, and simple data tables in React.
  - [ag-grid](https://github.com/ceolter/ag-grid) - Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components.
@@ -120,25 +86,83 @@
  - [react-bootstrap-table](https://github.com/AllenFang/react-bootstrap-table) - It&#39;s a react table for bootstrap.
  - [react-data-grid](https://github.com/adazzle/react-data-grid) - Excel-like grid component built with React, with editors, keyboard navigation, copy &amp; paste, and the like.
  - [react-pivot](https://github.com/davidguttman/react-pivot) - React-Pivot is a data-grid component with pivot-table-like functionality for data display, filtering, and exploration.
- - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto Responsive Layout Library For React.
  - [reactabular](https://github.com/reactabular/reactabular) - Spectacular tables for React.
  - [fixed-data-table](https://github.com/facebook/fixed-data-table) - A React table component designed to allow presenting thousands of rows of data.
  - [sematable](https://github.com/sematext/sematable) - Client side sorting, pagination, and text filter for redux/react based apps.
-
-
-### Infinite Scroll
-
- - [react-lazyload](https://github.com/jasonslyvia/react-lazyload) - Lazyload your Component, Image or anything matters the performance.
- - [react-infinity](https://github.com/nmn/react-infinity) - A UITableView Inspired list and grid display solution with element culling and smooth animations.
- - [react-infinite](https://github.com/seatgeek/react-infinite) - A browser-ready efficient scrolling container based on UITableView.
- - [react-infinite-grid](https://github.com/ggordan/react-infinite-grid) - A React component which renders a grid of elements.
- - [react-list](https://github.com/orgsync/react-list) - A versatile infinite scroll React component.
  - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
 
 
-### Overlay
 
-*Display overlay / modal / alert / dialog / lightbox / popup*
+
+
+
+
+
+
+
+# Large list with virtualization
+
+*Display a huge list and only render visible entries.
+
+I have a large list of several thousands of entries that I want to show to the user.
+
+I want to dispaly the entire list without pagination. But rendering all thousands of entries is performance-wise unpractical.
+
+Instead of rendering all entries at once, the entries should be rendered only when they become visible as the user scrolls up and down the list. This technique is called "virtualization".
+
+What React libraries are there to achieve that?*
+
+ - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
+ - [react-infinite](https://github.com/seatgeek/react-infinite) - A browser-ready efficient scrolling container based on UITableView.
+ - [react-lazyload](https://github.com/jasonslyvia/react-lazyload) - Lazyload your Component, Image or anything matters the performance.
+ - [react-infinity](https://github.com/nmn/react-infinity) - A UITableView Inspired list and grid display solution with element culling and smooth animations.
+ - [react-infinite-grid](https://github.com/ggordan/react-infinite-grid) - A React component which renders a grid of elements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Infinite Scroll
+
+*Display a list that gets populated as the user scroll downs.
+
+I have a huge/infinite list. This is called "Infinite Scroll".
+
+What React libraries are there to help me achieve that?*
+
+ - [react-list](https://github.com/orgsync/react-list) - A versatile infinite scroll React component.
+
+
+
+
+
+
+
+
+
+
+
+# Overlay
+
+*Display a view in a large modefull popup.
+
+I want to display a new view in a large window on top of the current view.
+
+It should be "modefull", i.e. it should be blocking in the sense that the user has to interact with or close that new view before proceeding.
+
+For example a "yes/no" dialog or a modal to temporary show more information.
+
+Such popup is also called overlay, modal, alert, dialog, or lightbox.
+
+What are the react overlay libraries out there?*
 
  - [react-dock](https://github.com/alexkuz/react-dock) - Resizable dockable react component.
  - [react-overlays](https://github.com/react-bootstrap/react-overlays) - Utilities for creating robust overlay components.
@@ -151,9 +175,30 @@
  - [react-aria-modal](https://github.com/davidtheclark/react-aria-modal) - A fully accessible and flexible React modal built according WAI-ARIA Authoring Practices.
 
 
-### Notification
 
-*Toaster / snackbar — Notify the user with a modeless temporary little popup*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Notification
+
+*Notify the user with a modeless temporary little popup.
+
+I want to notify the user with some information. For that I want to use a little popup (e.g. 300px X 70px) for a little period of time that then closes itself.
+
+Such little popup is also often called toaster or snackbar.
+
+What is the list of all good react notification libraries?*
 
  - [react-notification-system](https://github.com/igorprado/react-notification-system) - A complete and totally customizable component for notifications in React.
  - [react-notification](https://github.com/pburtchaell/react-notification) - Snackbar notifications for React.
@@ -162,16 +207,39 @@
  - [reapop](https://github.com/LouisBarranqueiro/reapop) - A React & Redux notifications system.
 
 
-### Tooltip
+
+
+
+
+
+# Tooltip
+
+*Display information next to elements.
+
+My website has elements that are not 100% intuitive and they need explanation. I want to show a little popup with the explanatory text next to the element. The little popup only shows when the user cursor hovers the element and disappears when the cursor moves out of the element.
+
+What tooltips libraries for react are there out there?*
 
  - [react-tooltip](https://github.com/wwayne/react-tooltip) - React tooltip component.
  - [rc-tooltip](https://github.com/react-component/tooltip) - React Tooltip.
  - [react-portal-tooltip](https://github.com/romainberger/react-portal-tooltip) - Awesome React tooltips.
 
 
-### Menu
 
-*Menus / sidebars*
+
+
+
+
+
+# Menu
+
+*Display navigation options.
+
+The user can navigate to several possible routes. I want to show him these possible routes.
+
+I'm open as to how. Classical ways, e.g. a list of "pages", are fine. And creative ways as well, I'm open to use a creative/innovative way to show routes.
+
+What are menu/navigation libraries for React?*
 
  - [react-burger-menu](https://github.com/negomi/react-burger-menu) - An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations.
  - [react-sidebar](https://github.com/balloob/react-sidebar) - A sidebar component for React.
@@ -181,28 +249,111 @@
  - [react-metismenu](https://github.com/alpertuna/react-metismenu) - A ready-to-use menu component for React.
 
 
-### Header
 
-*Fixed headers / scroll-up headers / sticky elements*
+
+
+
+
+
+# Context Menu
+
+*Display a list of actions upon a right-click.
+
+When you right-click on a file in a desktop OS a little popup is shown with potential actions to take. I want this for my react app.
+
+What react context menu libraries are there?*
+
+
+
+
+
+
+
+
+
+# Sticky
+
+*Make sure that an element is always visible.
+
+The W3C added a specification for `position: sticky` which is great but not implemented in all browsers yet.
+
+The library doesn't need to be a polyfill that complies 100% to the spec.
+
+I just want to make sure that an element is always visible. And I don't want to use `position: fixed` because the element should scroll with the rest of the content and "detach" itself when needs be. Basically the element should switch between "position: static" and "position: fixed". See the W3C `position: sticky` for more information.
+
+Such feature is often used for section headers; For small mobile screens you sometimes get "lost" scrolling within the content of a section and with lost I mean that you don't know in what section you are currently browsing. Sticky makes sure that the current section header is always shown.
+
+Are there libraries to achieve stickyness for a React app?*
 
  - [react-sticky](https://github.com/captivationsoftware/react-sticky) - &lt;Sticky /&gt; component for awesome React apps.
- - [react-headroom](https://github.com/KyleAMathews/react-headroom) - Hide your header until you need it.
  - [react-listview-sticky-header](https://github.com/cht8687/react-listview-sticky-header) - React listview with sticky section header.
  - [react-sticky-state](https://github.com/soenkekluth/react-sticky-state) - React StickyState Component makes native position:sticky statefull and polyfills the missing sticky browser feature.
  - [react-stickynode](https://github.com/yahoo/react-stickynode) - A performant and comprehensive React sticky.
  - [react-sticky-node](https://github.com/visortelle/react-sticky-node) - Sticky react component.
 
 
-### Tabs
+
+
+
+
+
+
+
+# Scroll Up Header
+
+*Hide the header when scrolling down and show it again when scrolling up.
+
+To save vertical space, many mobile apps implement a header that disapears when scrolling down. The user scrolls up to access the header again.
+Chrome for mobile does that for example.
+
+Are there such libraries for React?*
+
+ - [react-headroom](https://github.com/KyleAMathews/react-headroom) - Hide your header until you need it.
+
+
+
+
+
+
+
+
+
+
+
+
+# Tabs
+
+*Allow the user to browse different views by selecting a tab.
+
+I basically want the same thing than browser tabs for my react app.
+
+What react tab libraries are there?*
 
  - [react-tabs](https://github.com/reactjs/react-tabs) - React tabs component.
  - [react-simpletabs](https://github.com/pedronauck/react-simpletabs) - Just a simple tabs component built with React.
  - [react-tabtab](https://github.com/ctxhou/react-tabtab) - React, tabs.
+ - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
 
 
-### Loader
 
-*Loaders / spinners / progress bars — Let the user know that something is loading*
+
+
+
+
+
+
+
+
+
+# Loader
+
+*Let the user know that something is being loaded.
+
+I want to show the user when something is loading, typically when a form is submitted or when the page is initially loading.
+
+I'm open for it to be a spinner, a progress bar, or whatever.
+
+What are different ways to show the user a loading status and what libraries are there for that?*
 
  - [halogen](https://github.com/yuanyan/halogen) - A collection of loading spinners with React.js.
  - [react-ladda](https://github.com/jsdir/react-ladda) - React wrapper for Ladda buttons.
@@ -217,19 +368,58 @@
  - [react-block-ui](https://github.com/availity/react-block-ui) - Easy way to block the user from interacting with your UI.
 
 
-### Carousel
+
+
+
+
+
+
+
+
+
+# Carousel
+
+*Display elements in a big view, one at a time.
+
+I basically want a slideshow; There are several elements to be shown but only one is shown at a time, in a rotating fashion.
+
+I'm interessted in carousels that slide between images as well in carousels that slide between react views.
+
+What libraries can I use to easliy implement such carousel with react?*
 
  - [react-slick](https://github.com/akiran/react-slick) - React carousel component.
+ - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
 
 
-### Collapse
+
+
+
+
+
+
+
+
+# Collapse
 
  - [react-collapse](https://github.com/nkbt/react-collapse) - Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height.
 
 
-### Chart
 
-*Display data in charts / graphs / diagrams*
+
+
+
+
+# Chart
+
+*Display data in charts, graphs, diagrams, etc.
+
+I have lot's and all kinds of data and want to show them to the user in a nice way.
+
+Totally up for all kinds of crazy things here, inspire me.
+
+Classical ways to visualize data are totally fine of course.
+
+Bring up the libraries.*
 
  - [react-chartist](https://github.com/fraserxu/react-chartist) - React component for Chartist.js.
  - [d3-react-squared](https://github.com/bgrsquared/d3-react-squared) - Lightweight event system for (d3) charts and other components for ReactJS.
@@ -249,24 +439,69 @@
  - [chartify](https://github.com/kirillstepkin/chartify) - React.js plugin for building animated draggable and customizable charts.
 
 
-### Tree
 
-*Display a tree data structure*
+
+
+
+
+
+
+
+
+
+# Tree
+
+*Display a tree data structure.
+
+I want to visualize data of a tree, i.e. a graph with single parents.
+
+Are there react libraries spezialized in that?*
 
  - [react-treeview](https://github.com/chenglou/react-treeview) - Easy, light, flexible tree view made with React.
  - [react-ui-tree](https://github.com/pqx/react-ui-tree) - React tree component.
  - [react-treebeard](https://github.com/alexcurtis/react-treebeard) - React Tree View Component. Data-Driven, Fast, Efficient and Customisable.
 
 
-### UI Navigation
 
-*Ways to navigate views*
+
+
+
+
+
+
+
+
+
+
+
+
+# Scroll Navigation
+
+*Navigate to different views/sections by scrolling.
+
+I have one page with many sections/parts, I want display a menu listing all sections, and when the user clicks on a list item then the page should scroll to the corresponding section.*
 
  - [react-scroll](https://github.com/fisshy/react-scroll) - React scroll component.
- - [react-swipe-views](https://github.com/damusnet/react-swipe-views) - A React Component for binded Tabs and Swipeable Views.
 
 
-### Custom Scrollbar
+
+
+
+
+
+
+
+
+
+
+
+# Custom Scrollbar
+
+*Browser scroll bars are ugly, I want a personalized/cusrtomizable scrollbars instead.
+
+Let's face it, browser scrollbars are not pretty!
+
+Any react library helping with having a custom scrollbar?*
 
  - [react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars) - React scrollbars component.
  - [react-scrollbar](https://github.com/souhe/reactScrollbar) - Scrollbar component for React.
@@ -275,18 +510,78 @@
  - [react-custom-scroll](https://github.com/rommguy/react-custom-scroll) - Easily customize the browser scroll bar with native OS scroll behavior.
 
 
-### Audio / Video
 
+
+
+
+
+
+
+
+
+
+
+
+
+# Audio
+
+*Audio related libraries.
+
+I'm curious of what kind of react libraries there are out there that have something to do with music.
+
+Music + React = <3.*
+
+ - [react-music](https://github.com/FormidableLabs/react-music) - Make beats with React.
+ - [react-soundplayer](https://github.com/soundblogs/react-soundplayer) - Create custom SoundCloud players with React.
+ - [react-player](https://github.com/CookPete/react-player) - A react component for playing a variety of URLs, including file paths, YouTube, SoundCloud and Vimeo.
+
+
+
+
+
+
+
+
+
+
+
+
+# Video
+
+*Video related libraries.
+
+My app is dealing with lot's of video content.
+
+I have all kinds of needs and it would be nice to have a list of all great video-related react libraries.*
+
+ - [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
+ - [react-dailymotion](https://github.com/u-wave/react-dailymotion) - Dailymotion player component for React.
  - [react-player](https://github.com/CookPete/react-player) - A react component for playing a variety of URLs, including file paths, YouTube, SoundCloud and Vimeo.
  - [react-youtube](https://github.com/troybetz/react-youtube) - React.js powered YouTube player component.
- - [react-soundplayer](https://github.com/soundblogs/react-soundplayer) - Create custom SoundCloud players with React.
  - [react-video](https://github.com/pedronauck/react-video) - React component to load video from Vimeo or Youtube across any device.
- - [react-music](https://github.com/FormidableLabs/react-music) - Make beats with React.
- - [react-dailymotion](https://github.com/u-wave/react-dailymotion) - Dailymotion player component for React.
- - [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
 
 
-### Map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Map
+
+*Map related libraries.
+
+My app is all about information on a map.
+
+I' interessted in libraries that have something to do with maps.*
 
  - [react-gmaps](https://github.com/MicheleBertoli/react-gmaps) - A Google Maps component for React.js.
  - [google-map-react](https://github.com/istarkov/google-map-react) - Universal google map react component, allows render react components on the google map.
@@ -297,95 +592,303 @@
  - [react-mapbox-gl](https://github.com/alex3165/react-mapbox-gl) - A React binding of mapbox-gl-js.
 
 
-### Time / Date / Age
 
-*Display time / date / age*
+
+
+
+
+
+
+
+
+
+
+
+
+# Time
+
+*Format time / date / age to be human readable.
+
+My app is a social news site and I'm using React. I'm showing lot's of dates and I want to display them a nice human readable format. E.g. "Posted 9 minutes ago.".
+
+All kinds of printing of times, dates, time-agos, in a readable fashion is interessting to me.*
 
  - [react-time](https://github.com/andreypopp/react-time) - Component for React to render relative and/or formatted dates into &lt;time&gt; HTML5 element.
  - [react-timeago](https://github.com/nmn/react-timeago) - A simple time-ago component for ReactJs.
  - [timeago-react](https://github.com/hustcc/timeago-react) - Simple and efficient react component to format date with `*** time ago` statement. eg: '3 hours ago'.
 
 
-### Photo / Image
 
-*Display images / photos*
+
+
+
+
+
+
+
+
+
+
+
+
+# Image Gallery
+
+*Showcase several photos / images, one at a time.
+
+I've a collection of images I want the user to be able to browser over / navigate through.
+
+What are the react libraries helping with that?*
 
  - [react-image-gallery](https://github.com/xiaolin/react-image-gallery) - Responsive image gallery, carousel, image slider react component.
  - [react-images](https://github.com/jossmac/react-images) - A simple lightbox component for displaying an array of images.
  - [react-photo-gallery](https://github.com/neptunian/react-photo-gallery) - Responsive React Photo Gallery.
- - [react-svg-pan-zoom](https://github.com/chrvadala/react-svg-pan-zoom) - A React component that adds pan and zoom features to SVG.
  - [react-image-lightbox](https://github.com/fritz-c/react-image-lightbox) - React lightbox component.
+
+
+
+
+
+
+
+# Image Viewer
+
+*Show a single image/photo.
+
+I'm interested in libraries that help display a single image to the user.
+
+E.g. pan, zoom, view large image, etc.
+
+I'm not interessted in image manipulation libraries but only in libraries helping showing one image to the user.*
+
+ - [react-svg-pan-zoom](https://github.com/chrvadala/react-svg-pan-zoom) - A React component that adds pan and zoom features to SVG.
  - [react-intense](https://github.com/brycedorn/react-intense) - A React component for viewing large images up close.
 
 
-### Icons
 
-*Display icons / icon set / emojis*
+
+
+
+
+
+
+
+
+
+
+
+# Icons
+
+*Emoji related libraries.
+
+I love emojis and I want to get to know all cool icon related libraries for React apps!*
 
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
  - [react-emoji](https://github.com/banyan/react-emoji) - An emoji mixin for React.
 
 
-### Paginator
 
-*Display a control element to paginate*
+
+
+
+
+
+
+
+
+
+
+# Paginator
+
+*Display a control element to paginate.
+
+I'm looking for a small component allowing the user to select what page should be shown.*
 
  - [react-paginate](https://github.com/AdeleD/react-paginate) - A ReactJS component that creates a pagination.
 
 
-### Markdown Viewer
 
-*Display parsed markdow source*
+
+
+
+
+
+
+
+
+
+# Markdown Viewer
+
+*Parse and display markdow source.
+
+I don't want to use a full-blown markdown editor, instead I want a library that only parses markdown source into html code and renders the produced html.*
 
  - [react-markdown](https://github.com/rexxars/react-markdown) - Render Markdown as React components.
 
 
-### Miscellaneous
-
- - [react-timesheet](https://github.com/yuanyan/react-timesheet) - Time Sheet Component for React.
- - [react-blur](https://github.com/javierbyte/react-blur) - React component for blurred backgrounds.
- - [react-split-pane](https://github.com/tomkp/react-split-pane) - React split-pane component.
- - [typography](https://github.com/KyleAMathews/typography.js) - A powerful toolkit for building websites with beautiful typography.
- - [react-json-tree](https://github.com/alexkuz/react-json-tree) - React JSON Viewer Component, Extracted from redux-devtools.
- - [react-resizable-and-movable](https://github.com/bokuweb/react-resizable-and-movable) - Resizable and movable component for React.
- - [react-dnr](https://github.com/yongxu/react-DnR) - Dragable and Resizable window build with React.js.
- - [react-resizable-box](https://github.com/bokuweb/react-resizable-box) - Resizable component for React. #reactjs.
- - [react-file-reader-input](https://github.com/ngokevin/react-file-reader-input) - React file input component for complete control over styling and abstraction from file reading.
- - [react-pagespeed-score](https://github.com/cauealves/react-pagespeed-score) - A React component for display a dial-type chart of PageSpeed Insights.
- - [react-autolink](https://github.com/banyan/react-autolink) - An autolink mixin for React.
- - [react-svg-buttons](https://github.com/plouc/react-svg-buttons) - Configurable animated SVG buttons for react.
- - [react-avatar](https://github.com/Sitebase/react-avatar) - Universal React avatar component makes it possible to generate avatars based on user information.
- - [react-joyride](https://github.com/gilbarbara/react-joyride) - Create walkthroughs and guided tours for your ReactJS apps. Now with standalone tooltips!.
- - [material-color-hash](https://github.com/BelkaLab/material-color-hash) - Hash strings to Material UI colors.
 
 
 
 
-### Form Components
 
-*Let the user enter data*
 
-#### Date / Time picker
 
-*Date picker / time picker / datetime picker / date range picker*
 
- - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
+
+
+
+
+
+# Single Date Picker
+
+*Allow user to select a date.
+
+I want the user to be able to pick an arbitrary date.
+
+What are the high-quality react date picker libraries out there?*
+
+ - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
+ - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
+ - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
  - [react-datepicker](https://github.com/Hacker0x01/react-datepicker) - A simple and reusable datepicker component for React.
- - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
- - [react-date-range](https://github.com/Adphorus/react-date-range) - A React component for choosing dates and date ranges.
  - [react-day-picker](https://github.com/gpbl/react-day-picker) - Flexible date picker for React.
- - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
+ - [react-date-range](https://github.com/Adphorus/react-date-range) - A React component for choosing dates and date ranges.
+ - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
+ - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
+ - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-yearly-calendar](https://github.com/BelkaLab/react-yearly-calendar) - React.js Yearly Calendar Component.
+ - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
+ - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
  - [react-calendar](https://github.com/freiksenet/react-calendar) - A modular toolkit to build calendar-related things in React.
- - [input-moment](https://github.com/wangzuo/input-moment) - React datetime picker powered by momentjs.
+ - [react-date-select](https://github.com/JedWatson/react-date-select) - A React Date Select / Picker Input Component.
+
+
+
+
+
+
+
+# Range Date Picker
+
+*Allow user to select a date interval.
+
+I want the user to be able to select two dates to represent an interval between two dates.
+
+What are good libraries implementing that use case?*
+
+ - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
+ - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
+ - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
+ - [react-datepicker](https://github.com/Hacker0x01/react-datepicker) - A simple and reusable datepicker component for React.
+ - [react-day-picker](https://github.com/gpbl/react-day-picker) - Flexible date picker for React.
+ - [react-date-range](https://github.com/Adphorus/react-date-range) - A React component for choosing dates and date ranges.
+ - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
+ - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
+ - [react-yearly-calendar](https://github.com/BelkaLab/react-yearly-calendar) - React.js Yearly Calendar Component.
+ - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
+ - [react-bootstrap-daterangepicker](https://github.com/skratchdot/react-bootstrap-daterangepicker) - A date/time picker for react (using bootstrap). This is a react port of bootstrap-daterangepicker.
+
+
+
+
+
+
+
+
+
+
+# Multiple Date Picker
+
+*Allow user to select multiple dates.
+
+The user should be able to select several dates at a time; Once the calendar opened he sould be able to click on several dates to select them. (Instead of having to open-and-close the calendar for each selected date.)
+
+Is there a date picker library covering that use case?*
+
+ - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
+ - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
+ - [react-day-picker](https://github.com/gpbl/react-day-picker) - Flexible date picker for React.
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Date Time picker
+
+*Allow user to select a date and a time.
+
+The user should be able to select an arbitrary date and an arbitrary time on that date.
+
+What is the list of high-quality libraries that cover that use case?*
+
+
+ - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
+ - [rc-calendar](https://github.com/react-component/calendar) - React Calendar.
+ - [react-date-picker](https://github.com/zippyui/react-date-picker) - A carefully crafted date picker for React.
  - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
- - [react-bootstrap-daterangepicker](https://github.com/skratchdot/react-bootstrap-daterangepicker) - A date/time picker for react (using bootstrap). This is a react port of bootstrap-daterangepicker.
+ - [input-moment](https://github.com/wangzuo/input-moment) - React datetime picker powered by momentjs.
+
+
+
+
+
+
+
+
+
+# Time Picker
+
+*Allow user to select a time.
+
+I want to the user to be able to pick a time and it should be date agnostic; The user should be able to select a time without picking a date.
+
+Are there libraries enabling the user to choose a time without selecting a date?*
+
+ - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
+ - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Calendar Events
+
+*Allow users to view and edit events in a calendar view.
+
+Events are crucial to my app and the user should be able to, create new, view, and edit events.
+
+He should be able to do all that through a calendar view.
+
+What are calendar react libraries out there?*
+
  - [react-big-calendar](https://github.com/intljusticemission/react-big-calendar) - Gcal/outlook like calendar component.
- - [react-date-select](https://github.com/JedWatson/react-date-select) - A React Date Select / Picker Input Component.
- - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
- - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
- - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
+
+
+
+
+
+
+
+
 
 
 #### Input Types
@@ -517,21 +1020,13 @@
  - [react-widgets](https://github.com/jquense/react-widgets) - An &agrave; la carte set of polished, extensible, and accessible inputs built for React.
 
 
-#### Miscellaneous
-
- - [react-designer](https://github.com/fatiherikli/react-designer) - Easy to configure, lightweight, editable vector graphics in your react components.
- - [react-images-uploader](https://github.com/aleksei0807/react-images-uploader) - React.js component for uploading images to the server.
- - [react-tabguard](https://github.com/avocode/react-tabguard) - React Tabguard.
 
 
 
 
+## Layout
 
-
-
-## UI Layout
-
-*Components to layout the app's UI*
+*Library to layout the overall UI of the application*
 
  - [rgx](https://github.com/jxnblk/rgx) - React grid system based on minimum and maximum widths.
  - [react-flexbox](https://github.com/tcoopman/react-flexbox) - React flexbox implementation.
@@ -547,6 +1042,7 @@
  - [golden-layout](https://github.com/deepstreamIO/golden-layout) - A multi-screen javascript Layout manager.
  - [reactwm](https://github.com/stayradiated/reactwm) - A minimal window manager built using React.
  - [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid) - Pinterest like layout components for React.js.
+ - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto Responsive Layout Library For React.
 
 
 
@@ -880,13 +1376,6 @@
  - [react-boilerplate](https://github.com/mxstbr/react-boilerplate) - Quick packager-agnostic boilerplate for React modules using JSX.
 
 
-### Miscellaneous
-
- - [redux-auth-patch](https://github.com/lynndylanhurley/redux-auth) - Complete token authentication system for react + redux that supports isomorphic rendering.
- - [redux-search](https://github.com/treasure-data/redux-search) - Redux bindings for client-side search.
- - [react-inlinesvg](https://github.com/matthewwithanm/react-inlinesvg) - An SVG loader component for ReactJS.
- - [tcomb-react](https://github.com/gcanti/tcomb-react) - Alternative syntax for PropTypes.
-
 
 
 
@@ -949,22 +1438,83 @@
 
 
 
+# Inspect
+
+*Inspect app to understand what's going on.
+
+Looking for libraries that help me understand what's going on in my application.
+
+Mostly to help debug and/or analyze performance. (And maybe other use cases I can't think of right now.)
+
+What react inspection libraries are there out there?*
+
+ - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
+ - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
+ - [reactotron](https://github.com/reactotron/reactotron) - A CLI and OS X app for inspecting your React JS and React Native apps.
+ - [why-did-you-update](https://github.com/garbles/why-did-you-update) - Puts your console on blast when React is making unnecessary updates.
+ - [react-perf-tool](https://github.com/RamonGebben/react-perf-tool) - Debug performance of your React application.
+ - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
 
 
-## Performance
 
-### UI
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Inspect Performance
+
+*Understand (slow) performance.
+
+I want to make my app snappier and I'm search for libraries that help me understand what's going on in my application from a performance perspective.
+
+Any libraries to help me increase the performance of my app?*
+
+ - [why-did-you-update](https://github.com/garbles/why-did-you-update) - Puts your console on blast when React is making unnecessary updates.
+ - [react-perf-tool](https://github.com/RamonGebben/react-perf-tool) - Debug performance of your React application.
+ - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
+
+
+
+
+
+
+
+
+
+# Performance
+
+*Libraries to make UI blazing fast.
+
+I want maxizimze the performance of my app.
+
+Any library implementing a performance boost is welcome.*
 
  - [react-fastclick](https://github.com/JakeSidSmith/react-fastclick) - Fast Touch Events for React.
  - [react-static-container](https://github.com/reactjs/react-static-container) - Renders static content efficiently by allowing React to short-circuit the reconciliation process.
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [inferno](https://github.com/trueadm/inferno) - An extremely fast, React-like JavaScript library for building modern user interfaces.
 
-#### Inspect
 
- - [why-did-you-update](https://github.com/garbles/why-did-you-update) - Puts your console on blast when React is making unnecessary updates.
- - [react-perf-tool](https://github.com/RamonGebben/react-perf-tool) - Debug performance of your React application.
- - [react-render-visualizer](https://github.com/redsunsoft/react-render-visualizer) - Render visualizer for ReactJS.
+
+
+
+
+
+
+
+
+
+
+
 
 #### Lazy Load
 
@@ -1003,6 +1553,8 @@
 
 
 
+
+
 ### Redux
 
  - [redux-devtools-inspector](https://github.com/alexkuz/redux-devtools-inspector) - Another Redux DevTools Monitor.
@@ -1015,33 +1567,51 @@
 
 
 
-### Inspect
-
- - [react-inspector](https://github.com/xyc/react-inspector) - Power of Browser DevTools inspectors right inside your React app.
- - [react-json-inspector](https://github.com/Lapple/react-json-inspector) - React JSON inspector component.
- - [reactotron](https://github.com/reactotron/reactotron) - A CLI and OS X app for inspecting your React JS and React Native apps.
 
 
 
-### Miscellaneous
 
+
+
+
+
+# Static Website Generator
+
+ - [gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.js.
+ - [phenomic](https://github.com/MoOx/phenomic) - Modern static* website generator based on the React and Webpack ecosystem.
+ - [sitegen](https://github.com/andreypopp/sitegen) - Generate websites by composing React components.
+
+
+
+
+
+
+
+
+
+# Miscellaneous
+
+*Libraries that didn't find a Need (yet).
+
+Author of this catalog here, this "Need" is collecting all libraries for which a "Need" is missing. Every library should be at least in one Need (other than this one.)
+
+This need is totally an exception and a mis-use of Needs.
+
+This is essentially a to-do list of libraries missing a Need. Please create them!*
+
+ - [react-designer](https://github.com/fatiherikli/react-designer) - Easy to configure, lightweight, editable vector graphics in your react components.
+ - [react-images-uploader](https://github.com/aleksei0807/react-images-uploader) - React.js component for uploading images to the server.
+ - [react-tabguard](https://github.com/avocode/react-tabguard) - React Tabguard.
+ - [redux-auth-patch](https://github.com/lynndylanhurley/redux-auth) - Complete token authentication system for react + redux that supports isomorphic rendering.
+ - [redux-search](https://github.com/treasure-data/redux-search) - Redux bindings for client-side search.
+ - [react-inlinesvg](https://github.com/matthewwithanm/react-inlinesvg) - An SVG loader component for ReactJS.
+ - [tcomb-react](https://github.com/gcanti/tcomb-react) - Alternative syntax for PropTypes.
  - [react-atellier](https://github.com/scup/atellier) - The smartest way to share interactive components with your team.
  - [standard-react](https://github.com/feross/standard) - JavaScript Standard Style Guide.
  - [cosmos-js](https://github.com/skidding/cosmos) - DX tool for designing truly encapsulated React components.
  - [react-heatpack](https://github.com/insin/react-heatpack) - A &#39;heatpack&#39; command for quick React development with webpack hot reloading.
  - [mighty-react-snippets](https://github.com/nicksp/mighty-react-snippets) - Crafty React and Redux ES6 snippets for Atom Editor.
  - [react-styleguidist](https://github.com/sapegin/react-styleguidist) - React style guide generator.
-
-
-
-
-
-
-
-
-
-## Miscellaneous
-
  - [structor](https://github.com/ipselon/structor) - An advanced GUI editor for React.
  - [react-blessed](https://github.com/Yomguithereal/react-blessed) - A react renderer for blessed.
  - [react-komik](https://github.com/sonnylazuardi/react-komik) - ReactJS based comic strip creator using fabric.js canvas rendering.
@@ -1049,10 +1619,20 @@
  - [htmltojsx](https://github.com/reactjs/react-magic) - Automatically AJAXify plain HTML with the power of React. It&#39;s magic!.
  - [react-bash](https://github.com/zackargyle/react-bash) - A configurable/extendable bash terminal React component.
  - [html-to-react-components](https://github.com/roman01la/html-to-react-components) - Extract annotated portions of HTML into React components as separate modules.
+ - [react-timesheet](https://github.com/yuanyan/react-timesheet) - Time Sheet Component for React.
+ - [react-blur](https://github.com/javierbyte/react-blur) - React component for blurred backgrounds.
+ - [react-split-pane](https://github.com/tomkp/react-split-pane) - React split-pane component.
+ - [typography](https://github.com/KyleAMathews/typography.js) - A powerful toolkit for building websites with beautiful typography.
+ - [react-json-tree](https://github.com/alexkuz/react-json-tree) - React JSON Viewer Component, Extracted from redux-devtools.
+ - [react-resizable-and-movable](https://github.com/bokuweb/react-resizable-and-movable) - Resizable and movable component for React.
+ - [react-dnr](https://github.com/yongxu/react-DnR) - Dragable and Resizable window build with React.js.
+ - [react-resizable-box](https://github.com/bokuweb/react-resizable-box) - Resizable component for React. #reactjs.
+ - [react-file-reader-input](https://github.com/ngokevin/react-file-reader-input) - React file input component for complete control over styling and abstraction from file reading.
+ - [react-pagespeed-score](https://github.com/cauealves/react-pagespeed-score) - A React component for display a dial-type chart of PageSpeed Insights.
+ - [react-autolink](https://github.com/banyan/react-autolink) - An autolink mixin for React.
+ - [react-svg-buttons](https://github.com/plouc/react-svg-buttons) - Configurable animated SVG buttons for react.
+ - [react-avatar](https://github.com/Sitebase/react-avatar) - Universal React avatar component makes it possible to generate avatars based on user information.
+ - [react-joyride](https://github.com/gilbarbara/react-joyride) - Create walkthroughs and guided tours for your ReactJS apps. Now with standalone tooltips!.
+ - [material-color-hash](https://github.com/BelkaLab/material-color-hash) - Hash strings to Material UI colors.
 
 
-### Static Website Generator
-
- - [gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.js.
- - [phenomic](https://github.com/MoOx/phenomic) - Modern static* website generator based on the React and Webpack ecosystem.
- - [sitegen](https://github.com/andreypopp/sitegen) - Generate websites by composing React components.
