@@ -2,6 +2,8 @@
 awaiting approval libs
  - react-infinite-scroll-component -> infinite scroll
  - react-contextmenu -> context menu
+ - react-intl-tel-input -> phone number input
+ - react-payment -> credit card input
 
 
 TODO

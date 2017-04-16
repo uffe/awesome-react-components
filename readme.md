@@ -243,7 +243,7 @@ What tooltips libraries for react are there out there?*
 
 The user can navigate to several possible routes. I want to show him these possible routes.
 
-I'm open as to how. Classical ways, e.g. a list of "pages", are fine. And creative ways as well, I'm open to use a creative/innovative way to show routes.
+I'm open as to how. Classical ways, e.g. a sidebar listing "pages", are fine. And creative ways as well, I'm open to use a creative/innovative way to show routes.
 
 What are menu/navigation libraries for React?*
 
@@ -269,7 +269,7 @@ When you right-click on a file in a desktop OS a little popup is shown with pote
 
 What react context menu libraries are there?*
 
-
+- [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
 
 
 
@@ -826,7 +826,7 @@ Is there a date picker library covering that use case?*
 
 
 
-#### Date Time picker
+# Date Time picker
 
 *Allow user to select a date and a time.
 
@@ -897,14 +897,82 @@ What are calendar react libraries out there?*
 
 
 
-#### Input Types
 
-*Masked inputs, specialized inputs; email / telephone number / credit card / etc.*
 
- - [react-input-mask](https://github.com/sanniassin/react-input-mask) - Yet another react component for input masking.
- - [react-maskedinput](https://github.com/insin/react-maskedinput) - Masked &lt;input/&gt; React component.
- - [react-text-mask](https://github.com/msafi/text-mask) - Input mask for React, Angular, and vanilla JavaScript. Flexible, robust &amp; tiny.
+
+
+
+
+# Credit Card Input
+
+*Allow the user to enter credit card information.
+
+What React libraries are there that help create a credit card form?*
+
  - [react-credit-cards](https://github.com/amarofashion/react-credit-cards) - Beautiful credit cards for your payment forms.
+ - [react-maskedinput](https://github.com/insin/react-maskedinput) - Masked &lt;input/&gt; React component.
+ - [react-input-mask](https://github.com/sanniassin/react-input-mask) - Yet another react component for input masking.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Input Mask
+
+*Custom text input types.
+
+I want to be able to arbitrary limit what the user can enter in a text input.
+
+E.g. I want to be able to enforce the three first characters to be non-digit letters and the following three to be digits.*
+
+
+ - [react-text-mask](https://github.com/msafi/text-mask) - Input mask for React, Angular, and vanilla JavaScript. Flexible, robust &amp; tiny.
+ - [react-maskedinput](https://github.com/insin/react-maskedinput) - Masked &lt;input/&gt; React component.
+ - [react-input-mask](https://github.com/sanniassin/react-input-mask) - Yet another react component for input masking.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Phone Number Input
+
+*Let the user enter a telephone number.
+
+What are the React libraries out there that help create telephone number inputs?*
+
+ - [react-text-mask](https://github.com/msafi/text-mask) - Input mask for React, Angular, and vanilla JavaScript. Flexible, robust &amp; tiny.
+ - [react-input-mask](https://github.com/sanniassin/react-input-mask) - Yet another react component for input masking.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### Autocomplete
