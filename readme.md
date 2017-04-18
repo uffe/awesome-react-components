@@ -68,14 +68,15 @@ I'm curious about libraries what aim a (little) revolution."</em>
 
 # Table
 
-<em>Display data in tabular format.
+<em>
+Display data in tabular format.
 
-I want to display entries that all have the same properties but potentially different values for each property.
+I want to display entries that all have the same properties but with different values.
 
-Properties should be shown as columns of rows where one row then represents one entry.
+A property should be shown as one column and one entry should be shown as one row.
 
-
-What table / data grid libraries are there for React? (I believe data grid to be a synonym of table in that context.)</em>
+What libraries are there that help me build a tabular view with React?
+</em>
 
  - [reactable](https://github.com/glittershark/reactable) - Fast, flexible, and simple data tables in React.
  - [ag-grid](https://github.com/ceolter/ag-grid) - Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components.
@@ -101,7 +102,8 @@ What table / data grid libraries are there for React? (I believe data grid to be
 
 # Large list with virtualization
 
-<em>Display a huge list and only render visible entries.
+<em>
+Display a huge list of entries but only render the entries that are visible.
 
 I have a large list of several thousands of entries that I want to show to the user.
 
@@ -109,7 +111,8 @@ I want to dispaly the entire list without pagination. But rendering all thousand
 
 Instead of rendering all entries at once, the entries should be rendered only when they become visible as the user scrolls up and down the list. This technique is called "virtualization".
 
-What React libraries are there to achieve that?</em>
+What React libraries are there to achieve that?
+</em>
 
  - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
  - [react-infinite](https://github.com/seatgeek/react-infinite) - A browser-ready efficient scrolling container based on UITableView.
@@ -131,11 +134,13 @@ What React libraries are there to achieve that?</em>
 
 # Infinite Scroll
 
-<em>Display a list that gets populated as the user scroll downs.
+<em>
+Display a list that gets populated as the user scroll downs.
 
 I have a huge/infinite list. This is called "Infinite Scroll".
 
-What React libraries are there to help me achieve that?</em>
+What React libraries are there to help me achieve that?
+</em>
 
  - [react-list](https://github.com/orgsync/react-list) - A versatile infinite scroll React component.
 
@@ -232,11 +237,11 @@ What tooltips libraries for react are there out there?</em>
 
 # Menu
 
-<em>Display navigation options.
+<em>Display navigation / action options.
 
-The user can navigate to several possible routes. I want to show him these possible routes.
+The user can choose amongst several pages to navigate to / several actions to perform. I want to show him these routes / actions in a menu.
 
-I'm open as to how. Classical ways, e.g. a sidebar listing "pages", are fine. And creative ways as well, I'm open to use a creative/innovative way to show routes.
+I'm open as to how. Classical ways are fine, e.g. a sidebar listing routes, i.e. page names. But I'm also open to use a creative/innovative way to show routes.
 
 What are menu/navigation libraries for React?</em>
 
@@ -246,6 +251,7 @@ What are menu/navigation libraries for React?</em>
  - [react-offcanvas](https://github.com/vutran/react-offcanvas) - Off-canvas menus for React.
  - [react-tree-menu](https://github.com/MandarinConLaBarba/react-tree-menu) - A stateless tree menu component for React.
  - [react-metismenu](https://github.com/alpertuna/react-metismenu) - A ready-to-use menu component for React.
+ - [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
 
 
 
@@ -256,11 +262,13 @@ What are menu/navigation libraries for React?</em>
 
 # Context Menu
 
-<em>Display a list of actions upon a right-click.
+<em>
+Display a list of actions upon a right-click.
 
-When you right-click on a file in a desktop OS a little popup is shown with potential actions to take. I want this for my react app.
+When you right-click on a file in a desktop OS a little popup is shown with possible actions to take. I want this for my react app.
 
-What react context menu libraries are there?</em>
+What react context menu libraries are there?
+</em>
 
 - [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
 
@@ -272,7 +280,8 @@ What react context menu libraries are there?</em>
 
 # Sticky
 
-<em>Make sure that an element is always visible.
+<em>
+Make sure that an element is always visible.
 
 The W3C added a specification for `position: sticky` which is great but not implemented in all browsers yet.
 
@@ -282,7 +291,8 @@ I just want to make sure that an element is always visible. And I don't want to 
 
 Such feature is often used for section headers; For small mobile screens you sometimes get "lost" scrolling within the content of a section and with lost I mean that you don't know in what section you are currently browsing. Sticky makes sure that the current section header is always shown.
 
-Are there libraries to achieve stickyness for a React app?</em>
+Are there libraries to achieve stickyness for a React app?
+</em>
 
  - [react-sticky](https://github.com/captivationsoftware/react-sticky) - &lt;Sticky /&gt; component for awesome React apps.
  - [react-listview-sticky-header](https://github.com/cht8687/react-listview-sticky-header) - React listview with sticky section header.
@@ -300,12 +310,14 @@ Are there libraries to achieve stickyness for a React app?</em>
 
 # Scroll Up Header
 
-<em>Hide the header when scrolling down and show it again when scrolling up.
+<em>
+Hide the header when scrolling down and show it again when scrolling up.
 
 To save vertical space, many mobile apps implement a header that disapears when scrolling down. The user scrolls up to access the header again.
 Chrome for mobile does that for example.
 
-Are there such libraries for React?</em>
+Are there such libraries for React?
+</em>
 
  - [react-headroom](https://github.com/KyleAMathews/react-headroom) - Hide your header until you need it.
 
@@ -324,14 +336,16 @@ Are there such libraries for React?</em>
 
 <em>Allow the user to browse different views by selecting a tab.
 
-I basically want the same thing than browser tabs for my react app.
+I basically want the same thing than browser tabs but for my React app.
 
-What react tab libraries are there?</em>
+What React libraries are there to achieve that?</em>
 
  - [react-tabs](https://github.com/reactjs/react-tabs) - React tabs component.
  - [react-simpletabs](https://github.com/pedronauck/react-simpletabs) - Just a simple tabs component built with React.
  - [react-tabtab](https://github.com/ctxhou/react-tabtab) - React, tabs.
  - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
+ - [react-swipe-views](https://github.com/damusnet/react-swipe-views) - A React Component for binded Tabs and Swipeable Views.
+ - [react-swipe-views](https://github.com/damusnet/react-swipe-views) - A React Component for binded Tabs and Swipeable Views.
 
 
 
@@ -378,13 +392,13 @@ What are different ways to show the user a loading status and what libraries are
 
 # Carousel
 
-<em>Display elements in a big view, one at a time.
+<em>Display several views, one at a time.
 
-I basically want a slideshow; There are several elements to be shown but only one is shown at a time, in a rotating fashion.
+I basically want a slideshow; There are several elements to be shown but only one should be shown at a time and in a rotating fashion.
 
-I'm interessted in carousels that slide between images as well in carousels that slide between react views.
+I'm interessted in carousels that slide between images as well in carousels that slide between React views.
 
-What libraries can I use to easliy implement such carousel with react?</em>
+What libraries can I use to easliy implement such carousel with React?</em>
 
  - [react-slick](https://github.com/akiran/react-slick) - React carousel component.
  - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
@@ -481,7 +495,6 @@ Are there react libraries spezialized in that?</em>
 I have one page with many sections/parts, I want display a menu listing all sections, and when the user clicks on a list item then the page should scroll to the corresponding section.</em>
 
  - [react-scroll](https://github.com/fisshy/react-scroll) - React scroll component.
-
 
 
 
@@ -602,7 +615,8 @@ I' interessted in libraries that have something to do with maps.</em>
 
 
 
-# Time
+
+# Time Formatting
 
 <em>Format time / date / age to be human readable.
 
@@ -640,6 +654,8 @@ What are the react libraries helping with that?</em>
  - [react-images](https://github.com/jossmac/react-images) - A simple lightbox component for displaying an array of images.
  - [react-photo-gallery](https://github.com/neptunian/react-photo-gallery) - Responsive React Photo Gallery.
  - [react-image-lightbox](https://github.com/fritz-c/react-image-lightbox) - React lightbox component.
+
+
 
 
 
@@ -966,16 +982,36 @@ What are the React libraries out there that help create telephone number inputs?
 
 
 
-#### Autocomplete
+# Typeahead
 
-*Autosuggest / autocomplete / typeahead*
+<em>
+Let the user select amongst a long list of options by typing.
+
+I have a list of many options and I want the user to be able to choose one. A dropdown showing all options is not suitable since there can be hundreds of options. Instead the user should be able to type text and then only options matching the text are shown to him in a dropdown. I believe this technique to be called typeahead.
+
+What are the typeahead libraries for React out there?
+</em>
 
  - [react-autosuggest](https://github.com/moroshko/react-autosuggest) - WAI-ARIA compliant React autosuggest component.
  - [react-typeahead](https://github.com/fmoo/react-typeahead) - Pure react-based typeahead and typeahead-tokenizer.
  - [react-typeahead-component](https://github.com/ezequiel/react-typeahead-component) - Typeahead, written using the React.js library.
 
 
-#### Select
+
+
+
+
+
+
+# Dropdown
+
+<em>
+Allow user to select among a set of options.
+
+I want something similar to the HTML `<select>` element. (I don't want to use `<select>` because of its limitations and because it is not customizable.)
+
+What React dropdown libraries are there?
+</em>
 
  - [react-selectize](https://github.com/furqanZafar/react-selectize) - A Stateless &amp; Flexible Select component for React inspired by Selectize.
  - [react-aria-menubutton](https://github.com/davidtheclark/react-aria-menubutton) - A fully accessible, easily themeable, React-powered menu button.
@@ -983,38 +1019,149 @@ What are the React libraries out there that help create telephone number inputs?
  - [react-select-box](https://github.com/instructure-react/react-select-box) - An accessible select box component for React.
 
 
-#### Color Picker
+
+
+
+
+
+
+
+
+# Color Picker
+
+<em>
+Allow user to choose a color.
+
+Instead of the user having to enter the color code, I want him to be able to choose a color in a visual way.
+</em>
 
  - [react-input-color](https://github.com/wangzuo/react-input-color) - React input color component with hsv color picker.
  - [react-color](https://github.com/casesandberg/react-color) - Color Pickers from Sketch, Photoshop, Chrome & more.
  - [coloreact](https://github.com/elrumordelaluz/coloreact) - A tiny Color Picker for React.
 
 
-#### Toggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Toggle
+
+<em>
+Allow user to toggle a binary switch.
+
+I basically want something similar to `<input type="checkbox">`; I want the user to be able to switch between on/off, yes/no, true/false, i.e. between two states. I'm also interested in libraries implementing a third "neutral"/"unselected" state.
+
+What are the React libraries implementing such toggle?
+</em>
 
  - [react-toggle](https://github.com/instructure-react/react-toggle) - An elegant, accessible toggle component for React. Also a glorified checkbox.
  - [react-ios-switch](https://github.com/clari/react-ios-switch) - React switch component.
 
 
-#### Slider
+
+
+
+
+
+
+
+# Range Slider
+
+<em>
+Allow user to choose from a range of values.
+
+I want the user to be able to choose a value between a minimum and a maximum by visually moving a handle towards the minimum value to decrease the chosen value or towards the maximum value to increase the chosen value.
+
+What are the slider libraries for React out there?
+</em>
 
  - [rc-slider](https://github.com/react-component/slider) - React Slider.
  - [react-slider](https://github.com/mpowaga/react-slider) - Slider component for React.
 
 
-#### Radio Button
+
+
+
+
+
+
+# Radio Input Group
+
+<em>
+Display a set of options and let the user choose one.
+
+The user has to choose among only a couple of choices and I want to show him all choices without a dropdown and without having to interact with the app.
+
+So basically something like a `<form>` with several `<input type="radio">`.
+
+What are the React libraries out there implementing such radio group?
+</em>
 
  - [react-radio-group](https://github.com/chenglou/react-radio-group) - Better radio buttons.
 
 
-#### Type Select
 
-*Let the user select something (e.g. a tag) while typing*
+
+
+
+
+# Tags Input
+
+<em>
+Allow user to select tags.
+
+I've bunch of tags and I want the user to be able to select one or more tags.
+
+Are there React libraries implementing a tag input?
+</em>
+
 
  - [react-tagsinput](https://github.com/olahol/react-tagsinput) - A simple react component for inputing tags.
  - [react-tag-input](https://github.com/prakhar1989/react-tags) - A fantastically simple tagging component for your React projects.
- - [react-mentions](https://github.com/effektif/react-mentions) - Mention people in a textarea.
  - [react-tokeninput](https://github.com/instructure-react/react-tokeninput) - Tokeninput component for React.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Textarea Inline References
+
+<em>
+Allow user to insert references in text.
+
+I want the user to be able to insert inline references in a text he is writing. For example on Facebook a user is able write a comment that includes a mention to a friend.
+
+Are there React libraries that help me achieve that?
+</em>
+
+ - [react-mentions](https://github.com/effektif/react-mentions) - Mention people in a textarea.
+
+
+
+
+
+
+
+
+
 
 
 #### Autosize Input / Textarea
