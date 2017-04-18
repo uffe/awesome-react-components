@@ -49,7 +49,7 @@ If there are several libraries implementing the same creative idea, then please 
 
 # Crazy Stuff
 
-<em>Libraies with a "oh wow that's courageous" or "oh wow that's audacious.
+<em>Libraies with audacious goals.
 
 I'm curious about libraries what aim a (little) revolution."</em>
 
@@ -100,7 +100,10 @@ What libraries are there that help me build a tabular view with React?
 
 
 
-# Large list with virtualization
+
+
+
+# List Virtualization
 
 <em>
 Display a huge list of entries but only render the entries that are visible.
@@ -757,7 +760,7 @@ I don't want to use a full-blown markdown editor, instead I want a library that 
 
 I want the user to be able to pick an arbitrary date.
 
-What are the high-quality react date picker libraries out there?</em>
+What are the react date picker libraries out there?</em>
 
  - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
  - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
@@ -780,13 +783,18 @@ What are the high-quality react date picker libraries out there?</em>
 
 
 
+
+
+
+
+
 # Range Date Picker
 
 <em>Allow user to select a date interval.
 
 I want the user to be able to select two dates to represent an interval between two dates.
 
-What are good libraries implementing that use case?</em>
+What are the libraries implementing that use case?</em>
 
  - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
  - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
@@ -799,6 +807,8 @@ What are good libraries implementing that use case?</em>
  - [react-yearly-calendar](https://github.com/BelkaLab/react-yearly-calendar) - React.js Yearly Calendar Component.
  - [react-daterange-picker](https://github.com/onefinestay/react-daterange-picker) - A React based date range picker.
  - [react-bootstrap-daterangepicker](https://github.com/skratchdot/react-bootstrap-daterangepicker) - A date/time picker for react (using bootstrap). This is a react port of bootstrap-daterangepicker.
+
+
 
 
 
@@ -848,6 +858,7 @@ What is the list of high-quality libraries that cover that use case?</em>
  - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
  - [input-moment](https://github.com/wangzuo/input-moment) - React datetime picker powered by momentjs.
+
 
 
 
@@ -1164,43 +1175,125 @@ Are there React libraries that help me achieve that?
 
 
 
-#### Autosize Input / Textarea
+# Autosize Text Input
+
+<em>
+Automatically resize text input.
+
+As the user is typing text, I want the input / textarea to automatically resize itself depending on how much text the user has entered.
+
+Are there React libraries to achieve that?
+</em>
 
  - [react-input-autosize](https://github.com/JedWatson/react-input-autosize) - Auto-resizing input field for React.
  - [react-textarea-autosize](https://github.com/andreypopp/react-textarea-autosize) - &lt;textarea /&gt; component for React which grows with content.
 
 
-#### Star Rating
+
+
+
+
+
+
+
+
+
+
+
+# Star Rating
+
+<em>
+Allow user to rate something from 0 to n using stars.
+
+For example, I have a list of entries and I want the user to be able to "give" between 0 to 5 stars to an entry.
+
+Are there libraries that allow the user to star-rate something?
+</em>
 
  - [react-star-rating](https://github.com/cameronroe/react-star-rating) - A simple star rating component built with React.
  - [react-star-rating-input](https://github.com/ikr/react-star-rating-input) - React.js component for entering 0-5 (or more) stars.
 
 
-#### Drag and Drop
 
+
+
+
+
+
+
+
+
+
+
+# File Drag & Drop
+
+<em>
+Allow the user to drop a file from it's disk to the app.
+</em>
+
+ - [react-dropzone](https://github.com/okonet/react-dropzone) - Simple HTML5 drag-drop zone with React.js.
+
+
+
+
+
+
+
+
+
+# Element Drag & Drop
+
+<em>
+Allow the user to Drag & drop DOM elements.
+</em>
+
+ - [react-dnd](https://github.com/gaearon/react-dnd) - Drag and Drop for React.
  - [react-draggable](https://github.com/mzabriskie/react-draggable) - React draggable component.
  - [react-dnd-touch-backend](https://github.com/yahoo/react-dnd-touch-backend) - Touch Backend for react-dnd.
- - [react-dropzone](https://github.com/okonet/react-dropzone) - Simple HTML5 drag-drop zone with React.js.
- - [react-dnd](https://github.com/gaearon/react-dnd) - Drag and Drop for React.
- - [react-sortable-pane](https://github.com/bokuweb/react-sortable-pane) - Sortable and resizable pane component for React.
-
-
-#### Sortable List
-
-*Let the user define an order on a list*
-
  - [sortablejs](https://github.com/RubaXa/Sortable) - Sortable &mdash; is a JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React, Polymer, Knockout and any CSS library, e.g. Bootstrap.
  - [react-anything-sortable](https://github.com/jasonslyvia/react-anything-sortable) - A ReactJS component that can sort any children with touch support and IE8 compatibility.
  - [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) - A set of higher-order components to turn any list into an animated, touch-friendly, sortable list.
  - [react-sortable](https://github.com/danielstocks/react-sortable) - A sortable list component built with React.
 
 
-#### Rich Text Editor
+
+
+
+
+
+
+
+
+# Code Editor
+
+<em>
+Allow user to edit source code.
+
+My website shows several code snippets and I want the user to be able to change them.
+
+What are the source code editor libraries for React?
+</em>
+
+ - [react-codemirror](https://github.com/JedWatson/react-codemirror) - Codemirror Component for React.js.
+ - [react-ace](https://github.com/securingsincity/react-ace) - React Ace Component.
+
+
+
+
+
+
+# Rich Text Editor
+
+<em>
+Allow user to edit rich text.
+
+I'm building a website where the user should be able to enter richt text, that is text that can include bolded segments, links, headers, etc.
+
+What are the Rich text editor libraries for React?
+</em>
 
  - [react-quill](https://github.com/zenoamaro/react-quill) - A Quill component for React.
- - [react-ace](https://github.com/securingsincity/react-ace) - React Ace Component.
  - [react-contenteditable](https://github.com/lovasoa/react-contenteditable) - React component for a div with editable contents.
- - [react-codemirror](https://github.com/JedWatson/react-codemirror) - Codemirror Component for React.js.
  - [react-medium-editor](https://github.com/wangzuo/react-medium-editor) - React wrapper for medium-editor.
  - [draft-js](https://github.com/facebook/draft-js) - A React framework for building text editors.
  - [ritzy](https://github.com/ritzyed/ritzy) - Collaborative web-based rich text editor.
@@ -1208,15 +1301,45 @@ Are there React libraries that help me achieve that?
  - [react-trumbowyg](https://github.com/RD17/react-trumbowyg) - React wrapper for Trumbowyg.
 
 
-#### Markdown Editor
+
+
+
+
+# Markdown Editor
+
+<em>
+Allow user to edit markdown source.
+
+Right now my app lets the user edit markdown source in a `<textarea>`. But I want the editing to be a nicer experience.
+
+For example by changing the style of the source text depending on the markdown interpretation; a `**an emphasis**` should be shown in bold or a `# A Header` shown with an increased font-size. Or for example by showing control elements to insert new links, headers, quotes, etc.
+
+Are there libraries that implement those things?
+</em>
 
  - [react-md-editor](https://github.com/JedWatson/react-md-editor) - React.js Markdown Editor Component.
  - [react-markdown-editor](https://github.com/jrm2k6/react-markdown-editor) - A markdown editor using React/Reflux.
+ - [react-codemirror](https://github.com/JedWatson/react-codemirror) - Codemirror Component for React.js.
 
 
-#### Image Editing
 
-*Image manipulation*
+
+
+
+
+
+
+
+
+# Image Editing
+
+<em>
+Allow user to manipulate images.
+
+I want my users to be able to manipulate images, e.g. crop an image.
+
+Are there React liraries that let users do image manipulation?
+</em>
 
  - [react-avatar-cropper](https://github.com/DropsOfSerenity/react-avatar-cropper) - Aiming to be a complete solution for avatar cropping in react.
  - [react-avatar-editor](https://github.com/mosch/react-avatar-editor) - Facebook like, avatar / profile picture component. Resize and crop your uploaded image using a clear user interface.
@@ -1224,12 +1347,45 @@ Are there React libraries that help me achieve that?
  - [react-image-cropper](https://github.com/jerryshew/react-image-cropper) - React image crop.
 
 
-#### Form Component Collections
+
+
+
+
+
+
+
+# Form Component Collections
+
+<em>
+
+Instead of picking
+</em>
 
  - [formsy-react-components](https://github.com/twisty/formsy-react-components) - A set of React JS components for use in a formsy-react form. Markup adheres to Bootstrap 3 form structure.
  - [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) - A Formsy compatibility wrapper for Material-UI form components.
  - [react-input-enhancements](https://github.com/alexkuz/react-input-enhancements) - Set of enhancements for input control.
  - [react-widgets](https://github.com/jquense/react-widgets) - An &agrave; la carte set of polished, extensible, and accessible inputs built for React.
+
+
+
+
+
+
+
+
+
+# Pane Layout
+<em>
+Simultaneously show several views.
+
+I'm building an admin interface that has several different views that should be all shown simultaneously.
+
+What libraries are there to achieve such panel layout?
+</em>
+
+ - [react-grid-layout](https://github.com/STRML/react-grid-layout) - A draggable and resizable grid layout with responsive breakpoints, for React.
+ - [react-sortable-pane](https://github.com/bokuweb/react-sortable-pane) - Sortable and resizable pane component for React.
+
 
 
 

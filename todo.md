@@ -4,13 +4,12 @@ awaiting approval libs
  - react-intl-tel-input -> phone number input
  - react-payment -> credit card input
  - react-autocomplete-input -> Textarea Inline References
+ - react-droparea -> File DnD
+ - react-dragula -> Element DnD
 
 
 TODO
  - add comment when approving (for https://github.com/springload/react-accessible-accordion)
- - links in readme buggy;
-  - bug in readme preview of `react-bootstrap-daterangepicker` -> Clicking on last readme link  "Original Plugin" does nothing.
-  - Click on "DEMO / Examples: furqanZafar.github.io/react-selectize" in react-selectize
 
 
 
