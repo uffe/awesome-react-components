@@ -17,18 +17,24 @@
 
 
 
+<em>
+line1
 
+line2
+
+line3
+</em>
 
 
 
 
 # Creative Stuff
 
-*Libraries with a "oh wow that's a neat idea" effect.
+<em>Libraries with a "oh wow that's a neat idea" effect.
 
 I'm curious about new types of libraries. Especially because React allows a whole new range of libraries that previously were very difficult to implement.
 
-If there are several libraries implementing the same creative idea, then please add the oldest one.*
+If there are several libraries implementing the same creative idea, then please add the oldest one.</em>
 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
