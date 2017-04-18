@@ -17,13 +17,6 @@
 
 
 
-<em>
-line1
-
-line2
-
-line3
-</em>
 
 
 
@@ -56,9 +49,9 @@ If there are several libraries implementing the same creative idea, then please 
 
 # Crazy Stuff
 
-*Libraies with a "oh wow that's courageous" or "oh wow that's audacious.
+<em>Libraies with a "oh wow that's courageous" or "oh wow that's audacious.
 
-I'm curious about libraries what aim a (little) revolution."*
+I'm curious about libraries what aim a (little) revolution."</em>
 
  - [react-canvas](https://github.com/Flipboard/react-canvas) - High performance &lt;canvas&gt; rendering for React components.
 
@@ -75,14 +68,14 @@ I'm curious about libraries what aim a (little) revolution."*
 
 # Table
 
-*Display data in tabular format.
+<em>Display data in tabular format.
 
 I want to display entries that all have the same properties but potentially different values for each property.
 
 Properties should be shown as columns of rows where one row then represents one entry.
 
 
-What table / data grid libraries are there for React? (I believe data grid to be a synonym of table in that context.)*
+What table / data grid libraries are there for React? (I believe data grid to be a synonym of table in that context.)</em>
 
  - [reactable](https://github.com/glittershark/reactable) - Fast, flexible, and simple data tables in React.
  - [ag-grid](https://github.com/ceolter/ag-grid) - Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components.
@@ -108,7 +101,7 @@ What table / data grid libraries are there for React? (I believe data grid to be
 
 # Large list with virtualization
 
-*Display a huge list and only render visible entries.
+<em>Display a huge list and only render visible entries.
 
 I have a large list of several thousands of entries that I want to show to the user.
 
@@ -116,7 +109,7 @@ I want to dispaly the entire list without pagination. But rendering all thousand
 
 Instead of rendering all entries at once, the entries should be rendered only when they become visible as the user scrolls up and down the list. This technique is called "virtualization".
 
-What React libraries are there to achieve that?*
+What React libraries are there to achieve that?</em>
 
  - [react-virtualized](https://github.com/bvaughn/react-virtualized) - React components for efficiently rendering large lists and tabular data.
  - [react-infinite](https://github.com/seatgeek/react-infinite) - A browser-ready efficient scrolling container based on UITableView.
@@ -138,11 +131,11 @@ What React libraries are there to achieve that?*
 
 # Infinite Scroll
 
-*Display a list that gets populated as the user scroll downs.
+<em>Display a list that gets populated as the user scroll downs.
 
 I have a huge/infinite list. This is called "Infinite Scroll".
 
-What React libraries are there to help me achieve that?*
+What React libraries are there to help me achieve that?</em>
 
  - [react-list](https://github.com/orgsync/react-list) - A versatile infinite scroll React component.
 
@@ -158,7 +151,7 @@ What React libraries are there to help me achieve that?*
 
 # Overlay
 
-*Display a view in a large modefull popup.
+<em>Display a view in a large modefull popup.
 
 I want to display a new view in a large window on top of the current view.
 
@@ -168,7 +161,7 @@ For example a "yes/no" dialog or a modal to temporary show more information.
 
 Such popup is also called overlay, modal, alert, dialog, or lightbox.
 
-What are the react overlay libraries out there?*
+What are the react overlay libraries out there?</em>
 
  - [react-dock](https://github.com/alexkuz/react-dock) - Resizable dockable react component.
  - [react-overlays](https://github.com/react-bootstrap/react-overlays) - Utilities for creating robust overlay components.
@@ -198,13 +191,13 @@ What are the react overlay libraries out there?*
 
 # Notification
 
-*Notify the user with a modeless temporary little popup.
+<em>Notify the user with a modeless temporary little popup.
 
 I want to notify the user with some information. For that I want to use a little popup (e.g. 300px X 70px) for a little period of time that then closes itself.
 
 Such little popup is also often called toaster or snackbar.
 
-What is the list of all good react notification libraries?*
+What is the list of all good react notification libraries?</em>
 
  - [react-notification-system](https://github.com/igorprado/react-notification-system) - A complete and totally customizable component for notifications in React.
  - [react-notification](https://github.com/pburtchaell/react-notification) - Snackbar notifications for React.
@@ -220,11 +213,11 @@ What is the list of all good react notification libraries?*
 
 # Tooltip
 
-*Display information next to elements.
+<em>Display information next to elements.
 
 My website has elements that are not 100% intuitive and they need explanation. I want to show a little popup with the explanatory text next to the element. The little popup only shows when the user cursor hovers the element and disappears when the cursor moves out of the element.
 
-What tooltips libraries for react are there out there?*
+What tooltips libraries for react are there out there?</em>
 
  - [react-tooltip](https://github.com/wwayne/react-tooltip) - React tooltip component.
  - [rc-tooltip](https://github.com/react-component/tooltip) - React Tooltip.
@@ -239,13 +232,13 @@ What tooltips libraries for react are there out there?*
 
 # Menu
 
-*Display navigation options.
+<em>Display navigation options.
 
 The user can navigate to several possible routes. I want to show him these possible routes.
 
 I'm open as to how. Classical ways, e.g. a sidebar listing "pages", are fine. And creative ways as well, I'm open to use a creative/innovative way to show routes.
 
-What are menu/navigation libraries for React?*
+What are menu/navigation libraries for React?</em>
 
  - [react-burger-menu](https://github.com/negomi/react-burger-menu) - An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations.
  - [react-sidebar](https://github.com/balloob/react-sidebar) - A sidebar component for React.
@@ -263,11 +256,11 @@ What are menu/navigation libraries for React?*
 
 # Context Menu
 
-*Display a list of actions upon a right-click.
+<em>Display a list of actions upon a right-click.
 
 When you right-click on a file in a desktop OS a little popup is shown with potential actions to take. I want this for my react app.
 
-What react context menu libraries are there?*
+What react context menu libraries are there?</em>
 
 - [react-contextmenu](https://github.com/vkbansal/react-contextmenu)
 
@@ -279,7 +272,7 @@ What react context menu libraries are there?*
 
 # Sticky
 
-*Make sure that an element is always visible.
+<em>Make sure that an element is always visible.
 
 The W3C added a specification for `position: sticky` which is great but not implemented in all browsers yet.
 
@@ -289,7 +282,7 @@ I just want to make sure that an element is always visible. And I don't want to 
 
 Such feature is often used for section headers; For small mobile screens you sometimes get "lost" scrolling within the content of a section and with lost I mean that you don't know in what section you are currently browsing. Sticky makes sure that the current section header is always shown.
 
-Are there libraries to achieve stickyness for a React app?*
+Are there libraries to achieve stickyness for a React app?</em>
 
  - [react-sticky](https://github.com/captivationsoftware/react-sticky) - &lt;Sticky /&gt; component for awesome React apps.
  - [react-listview-sticky-header](https://github.com/cht8687/react-listview-sticky-header) - React listview with sticky section header.
@@ -307,12 +300,12 @@ Are there libraries to achieve stickyness for a React app?*
 
 # Scroll Up Header
 
-*Hide the header when scrolling down and show it again when scrolling up.
+<em>Hide the header when scrolling down and show it again when scrolling up.
 
 To save vertical space, many mobile apps implement a header that disapears when scrolling down. The user scrolls up to access the header again.
 Chrome for mobile does that for example.
 
-Are there such libraries for React?*
+Are there such libraries for React?</em>
 
  - [react-headroom](https://github.com/KyleAMathews/react-headroom) - Hide your header until you need it.
 
@@ -329,11 +322,11 @@ Are there such libraries for React?*
 
 # Tabs
 
-*Allow the user to browse different views by selecting a tab.
+<em>Allow the user to browse different views by selecting a tab.
 
 I basically want the same thing than browser tabs for my react app.
 
-What react tab libraries are there?*
+What react tab libraries are there?</em>
 
  - [react-tabs](https://github.com/reactjs/react-tabs) - React tabs component.
  - [react-simpletabs](https://github.com/pedronauck/react-simpletabs) - Just a simple tabs component built with React.
@@ -353,13 +346,13 @@ What react tab libraries are there?*
 
 # Loader
 
-*Let the user know that something is being loaded.
+<em>Let the user know that something is being loaded.
 
 I want to show the user when something is loading, typically when a form is submitted or when the page is initially loading.
 
 I'm open for it to be a spinner, a progress bar, or whatever.
 
-What are different ways to show the user a loading status and what libraries are there for that?*
+What are different ways to show the user a loading status and what libraries are there for that?</em>
 
  - [halogen](https://github.com/yuanyan/halogen) - A collection of loading spinners with React.js.
  - [react-ladda](https://github.com/jsdir/react-ladda) - React wrapper for Ladda buttons.
@@ -385,13 +378,13 @@ What are different ways to show the user a loading status and what libraries are
 
 # Carousel
 
-*Display elements in a big view, one at a time.
+<em>Display elements in a big view, one at a time.
 
 I basically want a slideshow; There are several elements to be shown but only one is shown at a time, in a rotating fashion.
 
 I'm interessted in carousels that slide between images as well in carousels that slide between react views.
 
-What libraries can I use to easliy implement such carousel with react?*
+What libraries can I use to easliy implement such carousel with react?</em>
 
  - [react-slick](https://github.com/akiran/react-slick) - React carousel component.
  - [react-swipeable-views](https://github.com/oliviertassinari/react-swipeable-views) - A React component for swipeable views.
@@ -417,7 +410,7 @@ What libraries can I use to easliy implement such carousel with react?*
 
 # Chart
 
-*Display data in charts, graphs, diagrams, etc.
+<em>Display data in charts, graphs, diagrams, etc.
 
 I have lot's and all kinds of data and want to show them to the user in a nice way.
 
@@ -425,7 +418,7 @@ Totally up for all kinds of crazy things here, inspire me.
 
 Classical ways to visualize data are totally fine of course.
 
-Bring up the libraries.*
+Bring up the libraries.</em>
 
  - [react-chartist](https://github.com/fraserxu/react-chartist) - React component for Chartist.js.
  - [d3-react-squared](https://github.com/bgrsquared/d3-react-squared) - Lightweight event system for (d3) charts and other components for ReactJS.
@@ -457,11 +450,11 @@ Bring up the libraries.*
 
 # Tree
 
-*Display a tree data structure.
+<em>Display a tree data structure.
 
 I want to visualize data of a tree, i.e. a graph with single parents.
 
-Are there react libraries spezialized in that?*
+Are there react libraries spezialized in that?</em>
 
  - [react-treeview](https://github.com/chenglou/react-treeview) - Easy, light, flexible tree view made with React.
  - [react-ui-tree](https://github.com/pqx/react-ui-tree) - React tree component.
@@ -483,9 +476,9 @@ Are there react libraries spezialized in that?*
 
 # Scroll Navigation
 
-*Navigate to different views/sections by scrolling.
+<em>Navigate to different views/sections by scrolling.
 
-I have one page with many sections/parts, I want display a menu listing all sections, and when the user clicks on a list item then the page should scroll to the corresponding section.*
+I have one page with many sections/parts, I want display a menu listing all sections, and when the user clicks on a list item then the page should scroll to the corresponding section.</em>
 
  - [react-scroll](https://github.com/fisshy/react-scroll) - React scroll component.
 
@@ -503,11 +496,11 @@ I have one page with many sections/parts, I want display a menu listing all sect
 
 # Custom Scrollbar
 
-*Browser scroll bars are ugly, I want a personalized/cusrtomizable scrollbars instead.
+<em>Browser scroll bars are ugly, I want a personalized/cusrtomizable scrollbars instead.
 
 Let's face it, browser scrollbars are not pretty!
 
-Any react library helping with having a custom scrollbar?*
+Any react library helping with having a custom scrollbar?</em>
 
  - [react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars) - React scrollbars component.
  - [react-scrollbar](https://github.com/souhe/reactScrollbar) - Scrollbar component for React.
@@ -531,11 +524,9 @@ Any react library helping with having a custom scrollbar?*
 
 # Audio
 
-*Audio related libraries.
+<em>Audio related libraries.
 
-I'm curious of what kind of react libraries there are out there that have something to do with music.
-
-Music + React = <3.*
+I'm curious of what kind of react libraries there are out there that have something to do with music.</em>
 
  - [react-music](https://github.com/FormidableLabs/react-music) - Make beats with React.
  - [react-soundplayer](https://github.com/soundblogs/react-soundplayer) - Create custom SoundCloud players with React.
@@ -554,11 +545,11 @@ Music + React = <3.*
 
 # Video
 
-*Video related libraries.
+<em>Video related libraries.
 
 My app is dealing with lot's of video content.
 
-I have all kinds of needs and it would be nice to have a list of all great video-related react libraries.*
+I have all kinds of needs and it would be nice to have a list of all great video-related react libraries.</em>
 
  - [video-react](https://github.com/video-react/video-react) - A web video player built for the HTML5 world using React library.
  - [react-dailymotion](https://github.com/u-wave/react-dailymotion) - Dailymotion player component for React.
@@ -583,11 +574,11 @@ I have all kinds of needs and it would be nice to have a list of all great video
 
 # Map
 
-*Map related libraries.
+<em>Map related libraries.
 
 My app is all about information on a map.
 
-I' interessted in libraries that have something to do with maps.*
+I' interessted in libraries that have something to do with maps.</em>
 
  - [react-gmaps](https://github.com/MicheleBertoli/react-gmaps) - A Google Maps component for React.js.
  - [google-map-react](https://github.com/istarkov/google-map-react) - Universal google map react component, allows render react components on the google map.
@@ -613,11 +604,11 @@ I' interessted in libraries that have something to do with maps.*
 
 # Time
 
-*Format time / date / age to be human readable.
+<em>Format time / date / age to be human readable.
 
 My app is a social news site and I'm using React. I'm showing lot's of dates and I want to display them a nice human readable format. E.g. "Posted 9 minutes ago.".
 
-All kinds of printing of times, dates, time-agos, in a readable fashion is interessting to me.*
+All kinds of printing of times, dates, time-agos, in a readable fashion is interessting to me.</em>
 
  - [react-time](https://github.com/andreypopp/react-time) - Component for React to render relative and/or formatted dates into &lt;time&gt; HTML5 element.
  - [react-timeago](https://github.com/nmn/react-timeago) - A simple time-ago component for ReactJs.
@@ -639,11 +630,11 @@ All kinds of printing of times, dates, time-agos, in a readable fashion is inter
 
 # Image Gallery
 
-*Showcase several photos / images, one at a time.
+<em>Showcase several photos / images, one at a time.
 
 I've a collection of images I want the user to be able to browser over / navigate through.
 
-What are the react libraries helping with that?*
+What are the react libraries helping with that?</em>
 
  - [react-image-gallery](https://github.com/xiaolin/react-image-gallery) - Responsive image gallery, carousel, image slider react component.
  - [react-images](https://github.com/jossmac/react-images) - A simple lightbox component for displaying an array of images.
@@ -658,13 +649,13 @@ What are the react libraries helping with that?*
 
 # Image Viewer
 
-*Show a single image/photo.
+<em>Show a single image/photo.
 
 I'm interested in libraries that help display a single image to the user.
 
 E.g. pan, zoom, view large image, etc.
 
-I'm not interessted in image manipulation libraries but only in libraries helping showing one image to the user.*
+I'm not interessted in image manipulation libraries but only in libraries helping showing one image to the user.</em>
 
  - [react-svg-pan-zoom](https://github.com/chrvadala/react-svg-pan-zoom) - A React component that adds pan and zoom features to SVG.
  - [react-intense](https://github.com/brycedorn/react-intense) - A React component for viewing large images up close.
@@ -684,9 +675,9 @@ I'm not interessted in image manipulation libraries but only in libraries helpin
 
 # Icons
 
-*Emoji related libraries.
+<em>Emoji related libraries.
 
-I love emojis and I want to get to know all cool icon related libraries for React apps!*
+I love emojis and I want to get to know all cool icon related libraries for React apps!</em>
 
  - [react-icons](https://github.com/gorangajic/react-icons) - Svg react icons of popular icon packs using ES6 imports.
  - [react-emoji](https://github.com/banyan/react-emoji) - An emoji mixin for React.
@@ -705,9 +696,9 @@ I love emojis and I want to get to know all cool icon related libraries for Reac
 
 # Paginator
 
-*Display a control element to paginate.
+<em>Display a control element to paginate.
 
-I'm looking for a small component allowing the user to select what page should be shown.*
+I'm looking for a small component allowing the user to select what page should be shown.</em>
 
  - [react-paginate](https://github.com/AdeleD/react-paginate) - A ReactJS component that creates a pagination.
 
@@ -724,9 +715,9 @@ I'm looking for a small component allowing the user to select what page should b
 
 # Markdown Viewer
 
-*Parse and display markdow source.
+<em>Parse and display markdow source.
 
-I don't want to use a full-blown markdown editor, instead I want a library that only parses markdown source into html code and renders the produced html.*
+I don't want to use a full-blown markdown editor, instead I want a library that only parses markdown source into html code and renders the produced html.</em>
 
  - [react-markdown](https://github.com/rexxars/react-markdown) - Render Markdown as React components.
 
@@ -746,11 +737,11 @@ I don't want to use a full-blown markdown editor, instead I want a library that 
 
 # Single Date Picker
 
-*Allow user to select a date.
+<em>Allow user to select a date.
 
 I want the user to be able to pick an arbitrary date.
 
-What are the high-quality react date picker libraries out there?*
+What are the high-quality react date picker libraries out there?</em>
 
  - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
  - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
@@ -775,11 +766,11 @@ What are the high-quality react date picker libraries out there?*
 
 # Range Date Picker
 
-*Allow user to select a date interval.
+<em>Allow user to select a date interval.
 
 I want the user to be able to select two dates to represent an interval between two dates.
 
-What are good libraries implementing that use case?*
+What are good libraries implementing that use case?</em>
 
  - [react-dates](https://github.com/airbnb/react-dates) - An easily internationalizable, mobile-friendly datepicker library for the web.
  - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
@@ -804,11 +795,11 @@ What are good libraries implementing that use case?*
 
 # Multiple Date Picker
 
-*Allow user to select multiple dates.
+<em>Allow user to select multiple dates.
 
 The user should be able to select several dates at a time; Once the calendar opened he sould be able to click on several dates to select them. (Instead of having to open-and-close the calendar for each selected date.)
 
-Is there a date picker library covering that use case?*
+Is there a date picker library covering that use case?</em>
 
  - [react-infinite-calendar](https://github.com/clauderic/react-infinite-calendar) - Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more.
  - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
@@ -828,11 +819,11 @@ Is there a date picker library covering that use case?*
 
 # Date Time picker
 
-*Allow user to select a date and a time.
+<em>Allow user to select a date and a time.
 
 The user should be able to select an arbitrary date and an arbitrary time on that date.
 
-What is the list of high-quality libraries that cover that use case?*
+What is the list of high-quality libraries that cover that use case?</em>
 
 
  - [react-flatpickr](https://github.com/coderhaoxin/react-flatpickr) - Flatpickr for React.
@@ -852,11 +843,11 @@ What is the list of high-quality libraries that cover that use case?*
 
 # Time Picker
 
-*Allow user to select a time.
+<em>Allow user to select a time.
 
 I want to the user to be able to pick a time and it should be date agnostic; The user should be able to select a time without picking a date.
 
-Are there libraries enabling the user to choose a time without selecting a date?*
+Are there libraries enabling the user to choose a time without selecting a date?</em>
 
  - [react-datetime](https://github.com/YouCanBookMe/react-datetime) - A lightweight but complete datetime picker react component.
  - [react-bootstrap-datetimepicker](https://github.com/quri/react-bootstrap-datetimepicker) - A react.js datetime picker for bootstrap.
@@ -878,13 +869,13 @@ Are there libraries enabling the user to choose a time without selecting a date?
 
 # Calendar Events
 
-*Allow users to view and edit events in a calendar view.
+<em>Allow users to view and edit events in a calendar view.
 
 Events are crucial to my app and the user should be able to, create new, view, and edit events.
 
 He should be able to do all that through a calendar view.
 
-What are calendar react libraries out there?*
+What are calendar react libraries out there?</em>
 
  - [react-big-calendar](https://github.com/intljusticemission/react-big-calendar) - Gcal/outlook like calendar component.
 
@@ -905,9 +896,9 @@ What are calendar react libraries out there?*
 
 # Credit Card Input
 
-*Allow the user to enter credit card information.
+<em>Allow the user to enter credit card information.
 
-What React libraries are there that help create a credit card form?*
+What React libraries are there that help create a credit card form?</em>
 
  - [react-credit-cards](https://github.com/amarofashion/react-credit-cards) - Beautiful credit cards for your payment forms.
  - [react-maskedinput](https://github.com/insin/react-maskedinput) - Masked &lt;input/&gt; React component.
@@ -928,11 +919,11 @@ What React libraries are there that help create a credit card form?*
 
 # Input Mask
 
-*Custom text input types.
+<em>Custom text input types.
 
 I want to be able to arbitrary limit what the user can enter in a text input.
 
-E.g. I want to be able to enforce the three first characters to be non-digit letters and the following three to be digits.*
+E.g. I want to be able to enforce the three first characters to be non-digit letters and the following three to be digits.</em>
 
 
  - [react-text-mask](https://github.com/msafi/text-mask) - Input mask for React, Angular, and vanilla JavaScript. Flexible, robust &amp; tiny.
@@ -955,9 +946,9 @@ E.g. I want to be able to enforce the three first characters to be non-digit let
 
 # Phone Number Input
 
-*Let the user enter a telephone number.
+<em>Let the user enter a telephone number.
 
-What are the React libraries out there that help create telephone number inputs?*
+What are the React libraries out there that help create telephone number inputs?</em>
 
  - [react-text-mask](https://github.com/msafi/text-mask) - Input mask for React, Angular, and vanilla JavaScript. Flexible, robust &amp; tiny.
  - [react-input-mask](https://github.com/sanniassin/react-input-mask) - Yet another react component for input masking.
