@@ -337,11 +337,13 @@ Are there such libraries for React?
 
 # Tabs
 
-<em>Allow the user to browse different views by selecting a tab.
+<em>
+Allow the user to browse different views by selecting a tab.
 
 I basically want the same thing than browser tabs but for my React app.
 
-What React libraries are there to achieve that?</em>
+What React libraries are there to achieve that?
+</em>
 
  - [react-tabs](https://github.com/reactjs/react-tabs) - React tabs component.
  - [react-simpletabs](https://github.com/pedronauck/react-simpletabs) - Just a simple tabs component built with React.
@@ -382,6 +384,7 @@ What are different ways to show the user a loading status and what libraries are
  - [react-md-spinner](https://github.com/tsuyoshiwada/react-md-spinner) - Material Design spinner components for React.js.
  - [rc-progress](https://github.com/react-component/progress) - React Progress Bar.
  - [react-block-ui](https://github.com/availity/react-block-ui) - Easy way to block the user from interacting with your UI.
+ - [animakit-rotator](https://github.com/animakit/animakit-rotator) - AnimakitRotator - React component for the 3D rotation of the blocks.
 
 
 
@@ -415,9 +418,17 @@ What libraries can I use to easliy implement such carousel with React?</em>
 
 
 
-# Collapse
+# Animated Collapse
+
+<em>
+Smoothly collapse and expand elements.
+
+I have an element I want to show to the user only upon a certain condition and instead of abruptly hide/show the element using `display: none` I want it to smoothly appear/disappear.
+</em>
 
  - [react-collapse](https://github.com/nkbt/react-collapse) - Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height.
+ - [animakit-expander](https://github.com/animakit/animakit-expander) - AnimakitExpander - React component for the expanding and collapsing of the blocks.
+ - [animakit-elastic](https://github.com/animakit/animakit-elastic) - AnimakitElastic - React component for flexible resizing of the blocks.
 
 
 
@@ -1164,6 +1175,7 @@ Are there React libraries that help me achieve that?
 </em>
 
  - [react-mentions](https://github.com/effektif/react-mentions) - Mention people in a textarea.
+ - [react-autocomplete-input](https://github.com/yury-dymov/react-autocomplete-input) - Autocomplete input field for React.
 
 
 
@@ -1232,6 +1244,7 @@ Allow the user to drop a file from it's disk to the app.
 </em>
 
  - [react-dropzone](https://github.com/okonet/react-dropzone) - Simple HTML5 drag-drop zone with React.js.
+ - [react-droparea](https://github.com/avocode/react-droparea) - Drag and Drop library for React.
 
 
 
@@ -1254,6 +1267,7 @@ Allow the user to Drag & drop DOM elements.
  - [react-anything-sortable](https://github.com/jasonslyvia/react-anything-sortable) - A ReactJS component that can sort any children with touch support and IE8 compatibility.
  - [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) - A set of higher-order components to turn any list into an animated, touch-friendly, sortable list.
  - [react-sortable](https://github.com/danielstocks/react-sortable) - A sortable list component built with React.
+ - [react-dragula](https://github.com/bevacqua/react-dragula) - Drag and drop so simple it hurts.
 
 
 
@@ -1331,6 +1345,7 @@ Are there libraries that implement those things?
 
 
 
+
 # Image Editing
 
 <em>
@@ -1354,9 +1369,169 @@ Are there React liraries that let users do image manipulation?
 
 
 
-# Form Component Collections
+
+
+
+
+
+
+
+# Customizable Panel Layout
+<em>
+Simultaneously show several views into a resizable panes.
+
+I'm building an admin interface that has several different views that should be all be shown simultaneously. The user should be able to customize the layout.
+
+I'm looking for libraries implementing such resizable panel layout.
+</em>
+
+ - [react-grid-layout](https://github.com/STRML/react-grid-layout) - A draggable and resizable grid layout with responsive breakpoints, for React.
+ - [react-sortable-pane](https://github.com/bokuweb/react-sortable-pane) - Sortable and resizable pane component for React.
+ - [golden-layout](https://github.com/deepstreamIO/golden-layout) - A multi-screen javascript Layout manager.
+ - [react-reflex](https://github.com/leefsmp/Re-Flex) - Flex layout container component for advanced React web applications.
+
+
+
+
+
+
+
+
+
+
+# Reponsive Layout Utilities
 
 <em>
+Utilities to ease the implementation of responsive websites.
+
+I want my website to be responsive, that is the layout of the website should adapt to the size of the viewport. For example a two column view for a desktop screen of >1000px width should collapse into a single column for smaller mobile screens.
+
+What utilities are there to help me implement responsive layout?
+</em>
+
+ - [react-flexbox-grid](https://github.com/roylee0704/react-flexbox-grid) - A set of React components implementing flexboxgrid with the power of CSS Modules.
+ - [react-layout-components](https://github.com/rofrischmann/react-layout-components) - Layout Components for React based on Flexbox.
+ - [rgx](https://github.com/jxnblk/rgx) - React grid system based on minimum and maximum widths.
+ - [react-inline-grid](https://github.com/broucz/react-inline-grid) - Predictable flexbox based grid for React.
+ - [flexbox-react](https://github.com/nachoaIvarez/flexbox-react) Unopinionated, standard compliant flexbox components. You don't need to learn any propietary syntax. If you know how to use flexbox, you know how to use flexbox-react components.
+ - [react-flexbox](https://github.com/tcoopman/react-flexbox) - React flexbox implementation.
+ - [reflexbox](https://github.com/jxnblk/reflexbox) - React flexbox layout and grid system.
+ - [hedron](https://github.com/JSBros/hedron#example-usage) - A no-frills flexbox grid system for React, powered by styled-components.
+
+
+
+
+
+
+
+
+
+# Column Stacks Layout
+
+<em>
+Pinterest-like layout of stacking elements into columns.
+
+I really like pinterest's approach of showing elements of different heights by stacking them on each other into columns. Ideallly the number of columns should be responsive to the website's width.
+
+I'm looking for libraries that implement such column stacks layout.
+</em>
+
+ - [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid) - Pinterest like layout components for React.js.
+ - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto responsive grid layout library.
+ - [react-stonecutter](https://github.com/dantrain/react-stonecutter) - Animated grid layout component for React.
+ - [react-masonry-component](https://github.com/eiriklv/react-masonry-component) - A React.js component for using @desandro&#39;s Masonry.
+
+
+
+
+
+
+
+
+
+# Resizer Splitter
+
+<em>
+Allow user to adjust the width/height of a view.
+
+For example, I have an application with a left sidebar and I want the user to be able to increase or decrease the width of the sidebar by dragging the right border of the sidebar to the right/left.
+
+Are there libraries that implement such resizer/splitter border?
+</em>
+
+- [m-react-splitters](https://github.com/martinnov92/React-Splitters) - React splitter component, written in TypeScript.
+- [react-resizer](https://github.com/avocode/react-resizer) - A React component for resizing HTML elements.
+
+
+
+
+
+
+# Animation Utilities
+
+<em>
+Animation utility to create all kinds of animations.
+
+I'm looking for a library that allow me to easily create all kinds of animation. For example libraries that help tween. But I'm also interested in all kinds of animation libraries that allow me to create many different types of animations. (I'm not interested in libraries that implement only one animation.)
+</em>
+
+ - [react-anime](https://github.com/stelatech/react-anime) - A super easy animation library for React.
+ - [react-tween](https://github.com/clari/react-tween) - Tween animation for React components.
+ - [react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems.
+ - [velocity-react](https://github.com/twitter-fabric/velocity-react) - React components for Velocity.js.
+ - [react-tween-state](https://github.com/chenglou/react-tween-state) - React animation.
+ - [react-motion-ui-pack](https://github.com/souporserious/react-motion-ui-pack) - Wrapper component around React Motion for easier UI transitions.
+ - [react-gsap-enhancer](https://github.com/azazdeaz/react-gsap-enhancer) - Use the full power of React and GSAP together.
+ - [react-imation](https://github.com/gilbox/react-imation) - Functional tweening and timeline animation for react.
+
+ - [react-mt-svg-lines](https://github.com/moarwick/react-mt-svg-lines) - A React.js wrapper component to animate the line stroke in SVGs.
+ - [react-spark-scroll](https://github.com/gilbox/react-spark-scroll) - Scroll-based actions and animations for react.
+ - [rc-animate](https://github.com/react-component/animate) - Anim react element easily.
+ - [react.animate](https://github.com/Nutelac/react.animate) - State animation plugin for react.js.
+ - [react-web-animation](https://github.com/bringking/react-web-animation) - React components for the Web Animations API.
+ - [data-driven-motion](https://github.com/tkh44/data-driven-motion) - Easily animate your data in react.
+
+
+
+
+
+
+# Animated List Changes
+
+<em>
+Add, remove, and re-order entries in a list in an animated fashion.
+
+For example, my application is showing a list ordered after number of upvotes and when the user upvotes an entry, the entry can move up in the list. Instead of the entry to abruptly move up, I want it to smoothly transition to take his new position while smoothly pushing down the passed entries.
+</em>
+
+ - [react-flip-move](https://github.com/joshwcomeau/react-flip-move) - Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.
+
+
+
+
+
+# Animated Page Transition
+
+<em>
+Smooth transition to a new page.
+
+When the user navigates to another page, almost all websites instantly hide the old page and instantly show the new page loading. I want the transition to be "smoother" and I want some kind of animation between the old page and the new page. I'm open to what the animation should look like.
+</em>
+
+ - [react-router-transition](https://github.com/maisano/react-router-transition) - Transitions built for react-router, powered by react-motion.
+
+
+
+
+
+
+
+
+
+# Form Component Sets
+
+<em>
+Collections of form Components to build forms and user inputs.
 
 Instead of picking
 </em>
@@ -1371,86 +1546,7 @@ Instead of picking
 
 
 
-
-
-
-# Pane Layout
-<em>
-Simultaneously show several views.
-
-I'm building an admin interface that has several different views that should be all shown simultaneously.
-
-What libraries are there to achieve such panel layout?
-</em>
-
- - [react-grid-layout](https://github.com/STRML/react-grid-layout) - A draggable and resizable grid layout with responsive breakpoints, for React.
- - [react-sortable-pane](https://github.com/bokuweb/react-sortable-pane) - Sortable and resizable pane component for React.
-
-
-
-
-
-
-
-## Layout
-
-*Library to layout the overall UI of the application*
-
- - [rgx](https://github.com/jxnblk/rgx) - React grid system based on minimum and maximum widths.
- - [react-flexbox](https://github.com/tcoopman/react-flexbox) - React flexbox implementation.
- - [react-masonry-mixin](https://github.com/eiriklv/react-masonry-mixin) - A React.js mixin for using @desandro&#39;s Masonry.
- - [react-inline-grid](https://github.com/broucz/react-inline-grid) - Predictable flexbox based grid for React.
- - [react-layout-components](https://github.com/rofrischmann/react-layout-components) - Layout Components for React based on Flexbox.
- - [react-grid-layout](https://github.com/STRML/react-grid-layout) - A draggable and resizable grid layout with responsive breakpoints, for React.
- - [react-masonry-component](https://github.com/eiriklv/react-masonry-component) - A React.js component for using @desandro&#39;s Masonry.
- - [react-flexbox-grid](https://github.com/roylee0704/react-flexbox-grid) - A set of React components implementing flexboxgrid with the power of CSS Modules.
- - [react-stonecutter](https://github.com/dantrain/react-stonecutter) - Animated grid layout component for React.
- - [flexbox-react](https://github.com/nachoaIvarez/flexbox-react) Unopinionated, standard compliant flexbox components. You don't need to learn any propietary syntax. If you know how to use flexbox, you know how to use flexbox-react components.
- - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto responsive grid layout library.
- - [golden-layout](https://github.com/deepstreamIO/golden-layout) - A multi-screen javascript Layout manager.
- - [reactwm](https://github.com/stayradiated/reactwm) - A minimal window manager built using React.
- - [react-stack-grid](https://github.com/tsuyoshiwada/react-stack-grid) - Pinterest like layout components for React.js.
- - [autoresponsive-react](https://github.com/xudafeng/autoresponsive-react) - Auto Responsive Layout Library For React.
-
-
-
-
-
-
-
-## UI Animation
-
-*Animate transitions*
-
- - [react-tween-state](https://github.com/chenglou/react-tween-state) - React animation.
- - [react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems.
- - [react-transitive-number](https://github.com/Lapple/react-transitive-number) - React component to apply transition effect to numeric strings, a la old Groupon timers.
- - [react-spark-scroll](https://github.com/gilbox/react-spark-scroll) - Scroll-based actions and animations for react.
- - [react-motion-ui-pack](https://github.com/souporserious/react-motion-ui-pack) - Wrapper component around React Motion for easier UI transitions.
- - [react-magic-move](https://github.com/ryanflorence/react-magic-move) - MagicMove for React.js.
- - [velocity-react](https://github.com/twitter-fabric/velocity-react) - React components for Velocity.js.
- - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
- - [rc-animate](https://github.com/react-component/animate) - Anim react element easily.
- - [react-router-transition](https://github.com/maisano/react-router-transition) - Transitions built for react-router, powered by react-motion.
- - [react-gsap-enhancer](https://github.com/azazdeaz/react-gsap-enhancer) - Use the full power of React and GSAP together.
- - [react-mt-svg-lines](https://github.com/moarwick/react-mt-svg-lines) - A React.js wrapper component to animate the line stroke in SVGs.
- - [react-flip-move](https://github.com/joshwcomeau/react-flip-move) - Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.
- - [react.animate](https://github.com/Nutelac/react.animate) - State animation plugin for react.js.
- - [react-anime](https://github.com/stelatech/react-anime) - A super easy animation library for React.
- - [animakit-rotator](https://github.com/animakit/animakit-rotator) - AnimakitRotator - React component for the 3D rotation of the blocks.
- - [animakit-elastic](https://github.com/animakit/animakit-elastic) - AnimakitElastic - React component for flexible resizing of the blocks.
- - [animakit-expander](https://github.com/animakit/animakit-expander) - AnimakitExpander - React component for the expanding and collapsing of the blocks.
- - [react-tween](https://github.com/clari/react-tween) - Tween animation for React components.
-
-
-### Parallax
-
- - [react-atv-img](https://github.com/keyanzhang/react-atv-img) - A port of @drewwilson&rsquo;s atvImg (Apple TV 3D parallax effect) library in React.
- - [react-parallax-component](https://github.com/keske/react-parallax-component) - Easiest way to add scroll parallax effect on the component.
-
-
 ## UI Frameworks
-
 
 ### Responsive
 
@@ -1508,13 +1604,41 @@ What libraries are there to achieve such panel layout?
  - [admin-on-rest](https://github.com/marmelab/admin-on-rest) - A frontend framework for building admin SPAs on top of REST services, using React and Material Design.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# DOM Reporter
+
+<em>
+Avoid it if you can, but for a certain class of (mostly animation-related) problems, you need to query the DOM.
+</em>
+
+ - [react-track](https://github.com/gilbox/react-track) - Track the position of DOM elements. Create cool animations.
+
+
+
+
 ## UI Utilites
 
 
 ### Reporter
 
 *Report computed styles*
-
 
 #### Visibility Reporter
 
@@ -1607,29 +1731,86 @@ What libraries are there to achieve such panel layout?
 *Libraries that help with code design*
 
 
+
+
+# Component Utilities
+
+<em>
+Utilities for creating Components
+</em>
+
+ - [recompose](https://github.com/acdlite/recompose) - A React utility belt for function components and higher-order components.
+ - [react-controllables](https://github.com/matthewwithanm/react-controllables) - Easily create controllable components.
+
+
+
+
+
+
+
+
+# TODO remove -- redux catalog duplicates
+
+ - [reselect](https://github.com/reactjs/reselect) - Selector library for Redux.
+ - [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) - Redux higher order reducer + action to reduce actions under a single subscriber notification.
+ - [redux-batched-subscribe](https://github.com/tappleby/redux-batched-subscribe) - Store enhancer for which allows batching subscribe notifications.
+
+
+
+
+# Redux Integeration
+
+ - [redux-ui](https://github.com/tonyhb/redux-ui) - Easy UI state management for react redux.
+ - [react-redux-provide](https://github.com/loggur/react-redux-provide) - Bridges the gap between Redux and the declarative nature of GraphQL/Relay. Share, manipulate, and replicate application state across any number of components.
+ - [shasta](https://github.com/shastajs/shasta) - Dead simple + opinionated toolkit for building redux/react applications.
+ - [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux.
+
+
+
+# Data Stores
+
+
+
+# Store-less Data Mangement
+
+
+
 ### Data Store
 
 *Data flow / data management / data stores / components state / data flow*
 
- - [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux.
- - [fluorine-lib](https://github.com/philpl/fluorine) - Reactive state and side effect management for React using a single stream of actions.
- - [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) - Redux higher order reducer + action to reduce actions under a single subscriber notification.
  - [react-i13n](https://github.com/yahoo/react-i13n) - A performant, scalable and pluggable approach to instrumenting your React application.
- - [shasta](https://github.com/shastajs/shasta) - Dead simple + opinionated toolkit for building redux/react applications.
- - [react-redux-provide](https://github.com/loggur/react-redux-provide) - Bridges the gap between Redux and the declarative nature of GraphQL/Relay. Share, manipulate, and replicate application state across any number of components.
- - [redux-batched-subscribe](https://github.com/tappleby/redux-batched-subscribe) - Store enhancer for which allows batching subscribe notifications.
  - [reflux](https://github.com/reflux/refluxjs) - A simple library for uni-directional dataflow application architecture with React extensions inspired by Flux.
- - [fluxxor](https://github.com/BinaryMuse/fluxxor) - Flux architecture tools for React.
- - [fluxible](https://github.com/yahoo/fluxible) - A pluggable container for universal flux applications.
- - [alt](https://github.com/goatslacker/alt) - Isomorphic flux implementation.
+
+
+
+
+
+
+ - [fluorine-lib](https://github.com/philpl/fluorine) - Reactive state and side effect management for React using a single stream of actions.
  - [baobab-react](https://github.com/Yomguithereal/baobab-react) - React integration for Baobab.
- - [reselect](https://github.com/reactjs/reselect) - Selector library for Redux.
- - [react-controllables](https://github.com/matthewwithanm/react-controllables) - Easily create controllable components.
- - [recompose](https://github.com/acdlite/recompose) - A React utility belt for function components and higher-order components.
- - [redux-ui](https://github.com/tonyhb/redux-ui) - Easy UI state management for react redux.
  - [redux](https://github.com/reactjs/redux) - Predictable state container for JavaScript apps.
  - [mobx-react](https://github.com/mobxjs/mobx-react) - React bindings for MobX. Create fully reactive components.
  - [cerebral](https://github.com/cerebral/cerebral) - A state controller with its own debugger.
+
+
+
+
+
+# Flux Implementations
+
+ - [fluxxor](https://github.com/BinaryMuse/fluxxor) - Flux architecture tools for React.
+ - [fluxible](https://github.com/yahoo/fluxible) - A pluggable container for universal flux applications.
+ - [alt](https://github.com/goatslacker/alt) - Isomorphic flux implementation.
+
+
+
+
+
+
+
+
+
 
 
 ### Form Logic
@@ -1965,7 +2146,7 @@ Author of this catalog here, this "Need" is collecting all libraries for which a
 
 This need is totally an exception and a mis-use of Needs.
 
-This is essentially a to-do list of libraries missing a Need. Please create them!*
+This is essentially a list of libraries missing a Need (yet).*
 
  - [react-designer](https://github.com/fatiherikli/react-designer) - Easy to configure, lightweight, editable vector graphics in your react components.
  - [react-images-uploader](https://github.com/aleksei0807/react-images-uploader) - React.js component for uploading images to the server.
@@ -2002,5 +2183,9 @@ This is essentially a to-do list of libraries missing a Need. Please create them
  - [react-avatar](https://github.com/Sitebase/react-avatar) - Universal React avatar component makes it possible to generate avatars based on user information.
  - [react-joyride](https://github.com/gilbarbara/react-joyride) - Create walkthroughs and guided tours for your ReactJS apps. Now with standalone tooltips!.
  - [material-color-hash](https://github.com/BelkaLab/material-color-hash) - Hash strings to Material UI colors.
+ - [reactwm](https://github.com/stayradiated/reactwm) - A minimal window manager built using React.
+ - [react-atv-img](https://github.com/keyanzhang/react-atv-img) - A port of @drewwilson&rsquo;s atvImg (Apple TV 3D parallax effect) library in React.
+ - [react-parallax-component](https://github.com/keske/react-parallax-component) - Easiest way to add scroll parallax effect on the component.
+ - [react-transitive-number](https://github.com/Lapple/react-transitive-number) - React component to apply transition effect to numeric strings, a la old Groupon timers.
 
 
