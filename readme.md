@@ -1726,17 +1726,12 @@ Avoid it if you can, but for a certain class of (mostly animation-related) probl
 
 
 
-## Code Design
-
-*Libraries that help with code design*
-
-
 
 
 # Component Utilities
 
 <em>
-Utilities for creating Components
+Utilities for creating Components.
 </em>
 
  - [recompose](https://github.com/acdlite/recompose) - A React utility belt for function components and higher-order components.
@@ -1747,64 +1742,41 @@ Utilities for creating Components
 
 
 
-
-
-# TODO remove -- redux catalog duplicates
-
- - [reselect](https://github.com/reactjs/reselect) - Selector library for Redux.
- - [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) - Redux higher order reducer + action to reduce actions under a single subscriber notification.
- - [redux-batched-subscribe](https://github.com/tappleby/redux-batched-subscribe) - Store enhancer for which allows batching subscribe notifications.
-
-
-
-
 # Redux Integeration
 
- - [redux-ui](https://github.com/tonyhb/redux-ui) - Easy UI state management for react redux.
+<em>
+Libraries helping using Redux with React.
+
+I want to use Redux in my React app. Are there utilities helping me integrating Redux with React?
+</em>
+
  - [react-redux-provide](https://github.com/loggur/react-redux-provide) - Bridges the gap between Redux and the declarative nature of GraphQL/Relay. Share, manipulate, and replicate application state across any number of components.
  - [shasta](https://github.com/shastajs/shasta) - Dead simple + opinionated toolkit for building redux/react applications.
  - [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux.
-
-
-
-# Data Stores
-
-
-
-# Store-less Data Mangement
-
-
-
-### Data Store
-
-*Data flow / data management / data stores / components state / data flow*
-
- - [react-i13n](https://github.com/yahoo/react-i13n) - A performant, scalable and pluggable approach to instrumenting your React application.
- - [reflux](https://github.com/reflux/refluxjs) - A simple library for uni-directional dataflow application architecture with React extensions inspired by Flux.
+ - [kea](https://github.com/mariusandra/kea) - High level architecture for React apps.
 
 
 
 
 
 
+# Data Store
+
+<em>
+Libraries implementing a data store with the purpose of easing the management of data flow.
+
+Flux introduced the concept of unidirectional data flow over one or several data stores. There are now many implementations of this concept. What are the libraries implementing such store with the purpose to ease data flow management?
+</em>
+
+ - [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux.
  - [fluorine-lib](https://github.com/philpl/fluorine) - Reactive state and side effect management for React using a single stream of actions.
- - [baobab-react](https://github.com/Yomguithereal/baobab-react) - React integration for Baobab.
- - [redux](https://github.com/reactjs/redux) - Predictable state container for JavaScript apps.
- - [mobx-react](https://github.com/mobxjs/mobx-react) - React bindings for MobX. Create fully reactive components.
  - [cerebral](https://github.com/cerebral/cerebral) - A state controller with its own debugger.
-
-
-
-
-
-# Flux Implementations
-
+ - [baobab-react](https://github.com/Yomguithereal/baobab-react) - React integration for Baobab.
+ - [mobx-react](https://github.com/mobxjs/mobx-react) - React bindings for MobX. Create fully reactive components.
+ - [reflux](https://github.com/reflux/refluxjs) - A simple library for uni-directional dataflow application architecture with React extensions inspired by Flux.
  - [fluxxor](https://github.com/BinaryMuse/fluxxor) - Flux architecture tools for React.
  - [fluxible](https://github.com/yahoo/fluxible) - A pluggable container for universal flux applications.
  - [alt](https://github.com/goatslacker/alt) - Isomorphic flux implementation.
-
-
-
 
 
 
@@ -2087,6 +2059,22 @@ Any library implementing a performance boost is welcome.*
 
 
 ## Dev Tools
+
+# User tracking Utilities
+
+<em>
+Utilities to help track user activity.
+
+I want to track what the users are doing in my application.
+
+Are there libraries that help track what the user is doing?
+
+I'm not interested in libraries that only help setup vendor code snippets. Rather, I'm interested in libraries that ease integrating tracking events with React components, React routes, link clicks, etc.
+</em>
+
+ - [react-i13n](https://github.com/yahoo/react-i13n) - A performant, scalable and pluggable approach to instrumenting your React application.
+
+
 
 ### Test
 
